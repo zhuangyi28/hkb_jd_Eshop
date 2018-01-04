@@ -1,0 +1,100 @@
+
+.status_goods_major {
+  position: relative;
+  box-shadow: 4px 0 2px rgba(0, 0, 0, .1);
+
+  .goods {
+    z-index: 500;
+    position: fixed;
+    top: 45px;
+    left: 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #f5e2c7;
+    color: #fc6329;
+    width: 100%;
+    box-sizing: border-box;
+    img {
+      width: 15px;
+      height: 15px;
+      margin-right: 5px;
+    }
+  }
+  .status_goods {
+    margin-top: 32px;
+    padding: 10px 20px 10px 12px;
+    background: white;
+    font-size: 14px;
+
+    .status_goods_title {
+      color: #4a4a4a;
+      letter-spacing: 1px;
+
+    }
+    .status_goods_send {
+      color: #ff4646;
+      letter-spacing: 1px;
+
+    }
+    .status_goods_tickets {
+      color: #ababab;
+      padding-bottom: 5px;
+      letter-spacing: 1px;
+
+    }
+
+    .status_goods_line {
+
+      border: none;
+      border-top: 1px solid #dddddd;
+      font-size: 12px;
+
+      img {
+        width: 90px;
+        height: 90px;
+        margin: 5px;
+
+      }
+
+    }
+    .status_goods_details {
+      width: calc(~'100% - 110px');
+      .status_goods_name{
+        color: #4a4a4a;
+        line-height: 18px;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+      }
+      .status_goods_special {
+        line-height: 17px;
+        padding: 5px 114px;
+      }
+      .status_goods_color {
+        margin-bottom: 10px;
+        color: #bbbbbb;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: clip;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+      }
+      .status_goods_price {
+        color: #4a4a4a;
+        margin-left: -2px;
+        font-size: 14px;
+
+      }
+      .status_goods_number {
+        color: #4a4a4a;
+        font-size: 14px;
+
+      }
+    }
+  }
+
+}

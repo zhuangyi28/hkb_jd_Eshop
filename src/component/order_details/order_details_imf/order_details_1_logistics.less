@@ -1,0 +1,44 @@
+.order_details_logistics{
+  background-color: #fff;
+  margin-bottom: 15px;
+  .title{
+    position: relative;
+    font-size: 16px;
+    padding: 10px 15px;
+    span{
+      display: inline-block;
+      background-image: url("../images/order_details_1_car.png");
+      width: 18px;
+      height: 18px;
+      background-size: 100%;
+      margin-right: 10px;
+      margin-top: 4px;
+      vertical-align: top;
+    }
+    p{
+      width: calc(~'100% - 30px')
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 15px;
+      box-sizing: border-box;
+      width: 92%;
+      height: 1px;
+      color: #ddd;
+      border-bottom: 1px solid #ddd;
+      transform-origin: 0 0;
+      transform: scaleY(0.6);
+    }
+  }
+  .details_imf{
+    padding: 10px 15px;
+    p{
+      margin-left: 28px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+<!-- 顶部导航 -->
+<nav class="jd_top_bar">
+    <div class="tab_box"></div>
+    <div class="jd_top_contain jdshop_alignment_center">
+        <a class="left">
+            <p class="icon_btn"></p>
+            <p>嘉福平台</p>
+        </a>
+        <div class="content jdshop_alignment_center">
+            我的商城订单
+        </div>
+        <a class="right">
+
+        </a>
+    </div>
+</nav>
+
+
+
+
+<!-- 切换tab-->
+<div class="shop_order_tab">
+    <div class="tab_box"></div>
+    <div class="tab_contain jdshop_shadow" id="orderTab">
+        <div class="tab choose_tab">全部订单</div>
+        <div class="tab">待付款订单</div>
+        <div class="tab">待收货订单</div>
+    </div>
+    <a class="tab_return" href="../return_service/application_record.html">退款/售后</a>
+
+</div>
+<!-- shop_order_content -->
+<div class="shop_order_content">
+
+    <%- include('shop_order_content/shop_order_1_list.ejs') %>
+
+</div>
+
+
+
+
+
+
+<!-- 底部导航 -->
+<footer class="bottom_tabbar">
+    <div class="tab_box"></div>
+    <div class="bottom_tabbar_contain jdshop_alignment_center ">
+        <a href="../jdshop_homepage/main.html">
+            <div class="tabbar_icon"><img src="../../icon/icon_main_home_red.png"></div>
+            <p>商城首页</p>
+        </a>
+        <a href="../jdshop_category/product_category.html">
+            <div class="tabbar_icon"><img src="../../icon/icon_main_sorts_red.png"></div>
+            <p>分类</p>
+        </a>
+        <a href="../jdshop_shoppingcart/shoppingcart.html">
+            <div class="tabbar_icon"><img src="../../icon/icon_main_car_red.png"></div>
+            <p>购物车</p>
+        </a>
+        <a class="current_page" href="../jdshop_order/shop_order.html">
+            <div class="tabbar_icon"><img src="../../icon/icon_main_order_red.png"></div>
+            <p>商城订单</p>
+        </a>
+    </div>
+</footer>
+
+<script>
+
+    //tab 切换
+
+    jfProductDetails.clickTabChange(document.getElementById('orderTab'), 'choose_tab', 'tab');
+
+
+    //切换跳转
+
+    jfOrderTab.hrefTab();
+
+
+
+
+
+</script>

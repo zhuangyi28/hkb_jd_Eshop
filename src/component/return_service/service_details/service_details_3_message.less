@@ -1,0 +1,25 @@
+.details_message{
+  background: #fff;
+  margin-bottom: 10px;
+  .message_title {
+    position: relative;
+    padding: 10px 15px;
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 15px;
+      box-sizing: border-box;
+      width: 92%;
+      height: 1px;
+      color: #ddd;
+      border-bottom: 1px solid #ddd;
+      transform-origin: 0 0;
+      transform: scaleY(.6);
+    }
+  }
+  .message_content{
+    padding: 15px;
+    color: #8a8a8a;
+  }
+}

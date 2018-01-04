@@ -1,0 +1,108 @@
+
+ .operation_tab{
+   display: flex;
+   position: fixed;
+   z-index: 500;
+   bottom: 55px;
+   width: 100%;
+   background-color: #fff;
+   transition: transform .2s;
+   label{
+     padding: 0 15px;
+     input.radio{
+       position: relative;
+       width: 20px;
+       height: 20px;
+       background-color: #fff;
+       border: 1px solid #ddd;
+       border-radius: 50%;
+       display: inline-block;
+       vertical-align: middle;
+       cursor: default;
+       -webkit-appearance: none;
+       user-select: none;
+       transition: background-color ease .1s;
+       &:before {
+         content: '';
+         width: .5rem;
+         height: .3rem;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         margin-left: -.25rem;
+         margin-top: -.25rem;
+         background: 0 0;
+         border: 1px solid #fff;
+         border-top: 0;
+         border-right: 0;
+         z-index: 2;
+         border-radius: 0;
+         transform: rotate(-45deg);
+       }
+       &:checked {
+         background-color: #ff0200;
+         border: 1px solid #ff0200;
+         text-align: center;
+         background-clip: padding-box;
+       }
+     }
+     span{
+       padding-left: 10px;
+       font-size: 16px;
+     }
+   }
+   .price{
+     color: #4a4a4a;
+     span{
+       font-size: 16px;
+       font-weight: bold;
+     }
+
+   }
+   .operation_btn{
+     display: inline-block;
+     color: #fff;
+     font-size: 16px;
+     line-height: 55px;
+     text-align: center;
+     white-space: nowrap;
+     width: 100px;
+     &:active{
+       -webkit-filter: grayscale(20%);
+       color: hsla(0,0,100%,.6);
+     }
+   }
+   &:before{
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     border: 1px solid #ddd;
+     color: #ddd;
+     transform-origin: 0 0;
+     transform: scaleY(0.2);
+
+   }
+ }
+
+ a.btn_mini{
+   position: relative;
+   top: 60vh;
+   margin: 0 auto;
+   display: block;
+   width: 90px;
+   line-height:30px;
+   text-align: center;
+   color: #fff;
+   border-radius: 8px;
+   &:active{
+     opacity: .8;
+   }
+ }
+  #settlementTab{
+   transform: translate3d(0,0,0);
+  }
+  #deleteTab{
+    transform: translate3d(0,55px,0);
+  }

@@ -1,0 +1,51 @@
+<!--申请记录-->
+
+
+<!-- 顶部导航 -->
+<nav class="jd_top_bar">
+    <div class="tab_box"></div>
+    <div class="jd_top_contain jdshop_alignment_center">
+        <a class="left" onclick="window.history.go(-1)">
+            <p class="back"><img src="../../images/nav_go_back.png"></p>
+        </a>
+        <div class="content jdshop_alignment_center">退货/售后</div>
+        <a class="right">
+        </a>
+    </div>
+</nav>
+
+
+<!-- 切换tab-->
+<div class="application_record_title">
+    <div class="tab_box"></div>
+    <div class="title_contain jdshop_shadow" id="title_contain">
+        <div class="tab choose_tab">售后申请</div>
+        <div class="tab">申请记录</div>
+        </div>
+    </div>
+
+
+<!--订单-->
+
+<%- include('./application_record.ejs') %>
+
+
+<script>
+
+
+    //图片懒加载
+    jfLazyLoading.lazyLoadInit({
+
+        "bottomDistance":"50"//距离底部的距离，触发事件，单位省略
+    })
+
+    //tab 切换
+
+    jfProductDetails.clickTabChange(document.getElementById('title_contain'), 'choose_tab', 'tab');
+
+    //滑动
+
+    jfReturnService.tabChange();
+
+
+</script>

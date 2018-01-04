@@ -1,0 +1,30 @@
+<!-- 商品退换描述-->
+<div class="refund_description jdshop_shadow">
+    <div class="type_title">问题描述</div>
+    <div class="textarea_wrapper">
+        <textarea placeholder="请您在此处描述问题" maxlength="500" id="textareaList"></textarea>
+        <div class="number_words"><span>0</span>/500</div>
+    </div>
+
+</div>
+
+<script>
+
+
+
+    //问题描述 字数
+
+    document.getElementById('textareaList').addEventListener('focus',jfReturnService.countWordsDescription,false);
+
+    document.getElementById('textareaList').addEventListener('input',jfReturnService.countWordsDescription,false);
+
+
+
+
+
+
+
+
+
+
+</script>

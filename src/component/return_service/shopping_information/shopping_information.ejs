@@ -1,0 +1,73 @@
+<!-- 填写发货信息-->
+
+<!--发货信息-->
+
+<div class="main_shipping_information">
+
+       <div class="shipping_information_remind">
+            <div class="goods jdshop_alignment_middle ">
+                <img src="../../images/status_spot.png">  请将您发给京东的快递信息填写，以便对方能快速的处理售后
+            </div>
+       </div>
+
+       <div class="shipping_information_box">
+
+           <div class="shipping_information_reason">快递公司:</div>
+
+
+           <select class="shipping_information_click" onchange="this.parentNode.nextSibling.value=this.value">
+               <option disabled="" selected="" class="select_holder">请选择快递公司</option>
+               <option>圆通快递</option>
+               <option>申通快递</option>
+               <option>圆通快递</option>
+               <option>韵达快递</option>
+               <option>百世汇通</option>
+
+           </select>
+
+
+       </div>
+
+
+       <div class="shipping_information_box">
+
+                <div class="shipping_information_reason">快递单号：</div>
+                <div class="shipping_information_click">
+                   <input type="number" name="[0-9]*" placeholder="请输入快递单号">
+                </div>
+
+       </div>
+
+      <div class="shipping_information_box">
+
+              <div class="shipping_information_reason">快递费(元)：</div>
+              <div class="shipping_information_click">
+                  <input type="number" name="[0-9]*" placeholder="请输入快递费">
+              </div>
+     </div>
+
+    <div class="shipping_information_box">
+
+              <div class="shipping_information_reason">发货日期：</div>
+              <div class="shipping_information_click">
+                  <input class="shipping_date" type="date" id="myDate" value="2017-10-12">
+
+
+
+              </div>
+    </div>
+    </div>
+
+<script>
+
+
+    //选择日期
+    jfReturnService.dateSelected();
+
+
+
+
+</script>
+
+
+

@@ -1,0 +1,31 @@
+<!-- 顶部导航 -->
+<nav class="jd_top_bar">
+    <div class="tab_box"></div>
+    <div class="jd_top_contain jdshop_alignment_center">
+        <a class="left" onclick="window.history.go(-1)">
+            <p class="back"><img src="../../images/nav_go_back.png"></p>
+        </a>
+        <div class="content jdshop_alignment_center">
+            收货地址
+        </div>
+        <a class="right">
+        </a>
+    </div>
+</nav>
+
+<div class="delivery_address">
+
+    <%- include('delivery_address_content/delivery_address_list.ejs') %>
+
+
+</div>
+
+<!-- 底部按钮-->
+
+<div class="bottom_button">
+    <div class="tab_box"></div>
+    <a class="button_contain" href="../../html/jdshop_address/add_address.html">
+        添加新地址
+    </a>
+
+</div>

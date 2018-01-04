@@ -1,0 +1,39 @@
+
+<!--取消原因-->
+
+<div class="main_cancel_service">
+
+    <!-- 提示-->
+
+    <div class="cancel_tip">
+        <img src="../../images/status_spot.png"><p>请将您发给京东的快递信息填写，以便对方能快速的处理售后。</p>
+    </div>
+
+    <!-- 描述-->
+
+    <div class="cancel_description">
+
+        <div class="cancel_service_reason">请填写取消的原因：</div>
+
+        <div class="textarea_wrapper">
+            <textarea placeholder="请您在此处描述取消原因" maxlength="500" id="textareaCancelList"></textarea>
+            <div class="number_words_cancel"><span>0</span>/500</div>
+        </div>
+
+
+
+    </div>
+</div>
+
+<script>
+
+    //问题描述 字数
+
+    document.getElementById('textareaCancelList').addEventListener('focus',jfReturnService.countWords,false);
+
+    document.getElementById('textareaCancelList').addEventListener('input',jfReturnService.countWords,false);
+
+
+
+
+</script>

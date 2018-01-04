@@ -1,0 +1,46 @@
+
+<div class="input_form jdshop_alignment_left">
+    <p>姓名</p>
+    <p><input class="jdshop_input" type="text" placeholder="请输入姓名" value="庄中煲"></p>
+</div>
+
+<div class="input_form jdshop_alignment_left">
+    <p>联系电话</p>
+    <p><input class="jdshop_input" type="number" pattern="[0-9]*" placeholder="请输入联系电话" value="15628917729"></p>
+</div>
+
+<div class="input_form jdshop_alignment_left">
+    <p>所在地区</p>
+    <p class="jdshop_alignment_center" onclick="productAddress.show({fn:
+
+function(){
+
+     addressChoose.run({
+     yourUrl:'http://jd-test.jia-fu.cn',
+     type: 'get',
+     targetDom:document.getElementById('address_show'),
+     fn:function() {
+       productAddress.hide()
+       console.log(addressChoose.addressCity)
+     }
+
+     })
+}
+
+})">
+        <span id="address_show">上海，徐汇区，城区</span>
+        <span><img src="../../images/product_go.png"></span>
+    </p>
+</div>
+
+<div class="input_form jdshop_alignment_left">
+    <p>详细地址</p>
+    <p><textarea class="jdshop_textarea" placeholder="请输入详细地址" rows="4">上海市徐汇区虹桥路808号加华商务中心D5栋三楼嘉福弹性福利平台</textarea></p>
+</div>
+
+
+<script>
+
+    productAddress = new jfShowPop({'ele': 'product_address'})
+
+</script>

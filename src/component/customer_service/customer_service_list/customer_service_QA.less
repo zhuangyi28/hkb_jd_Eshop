@@ -1,0 +1,44 @@
+.customer_service_list{
+  position: relative;
+  background-color: #fff;
+  padding:10px 15px 15px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  &:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    border-top: 1px solid #ddd;
+    transform-origin: 0 0;
+    transform: scaleY(.8);
+  }
+}
+.question_title{
+  position: relative;
+  color: #ff0200;
+  padding-bottom: 10px;
+  span:first-child{
+    font-size: 16px;
+    padding-right: 10px;
+  }
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    border-top: 1px solid #ddd;
+    transform-origin: 0 0;
+    transform: scaleY(.4);
+  }
+}
+.answer{
+  padding-top: 10px;
+  color: #8a8a8a;
+  span:first-child{
+    padding-right: 10px;
+    font-size: 16px;
+  }
+}

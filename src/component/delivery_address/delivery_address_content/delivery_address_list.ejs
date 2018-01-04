@@ -1,0 +1,130 @@
+<div class="delivery_address_list">
+    <form>
+        <div class="personal_info jdshop_alignment_left">
+            <p>庄中煲</p>
+            <p>15627166526</p>
+        </div>
+        <div class="address">
+            <p>上海市徐汇区虹桥路808号加华商务中心D5栋三楼嘉福弹性福利平台</p>
+        </div>
+
+        <div class="operation_area jdshop_alignment_center">
+            <label>
+                <input class="select_key" type="checkbox" checked onclick="jdShoppingCart.checkBoxChoose(this);">默认地址
+            </label>
+            <div class="jdshop_alignment_center">
+                <a class="edit" href="../jdshop_address/add_address.html"><span></span>编辑</a>
+                <div class="delete"><span></span>删除</div>
+            </div>
+        </div>
+</div>
+
+
+<div class="delivery_address_list">
+    <div class="personal_info jdshop_alignment_left">
+        <p>庄中煲</p>
+        <p>15627166526</p>
+    </div>
+    <div class="address">
+        <p>上海市徐汇区虹桥路808号</p>
+    </div>
+
+    <div class="operation_area jdshop_alignment_center">
+        <label>
+            <input class="select_key" type="checkbox" onclick="jdShoppingCart.checkBoxChoose(this)">设为默认
+        </label>
+        <div class="jdshop_alignment_center">
+            <a class="edit" href="../jdshop_address/add_address.html"><span></span>编辑</a>
+            <div class="delete"><span></span>删除</div>
+        </div>
+    </div>
+</div>
+
+
+<div class="delivery_address_list">
+    <div class="personal_info jdshop_alignment_left">
+        <p>庄中煲</p>
+        <p>15627166526</p>
+    </div>
+    <div class="address">
+        <p>上海市徐汇区虹桥路808号加华商务中心D5栋三楼嘉福弹性福利平台</p>
+    </div>
+
+    <div class="operation_area jdshop_alignment_center">
+        <label>
+            <input class="select_key" type="checkbox" onclick="jdShoppingCart.checkBoxChoose(this)">设为默认
+        </label>
+        <div class="jdshop_alignment_center">
+            <a class="edit" href="../jdshop_address/add_address.html"><span></span>编辑</a>
+            <div class="delete"><span></span>删除</div>
+        </div>
+    </div>
+</div>
+
+
+<div class="delivery_address_list">
+    <div class="personal_info jdshop_alignment_left">
+        <p>庄中煲</p>
+        <p>15627166526</p>
+    </div>
+    <div class="address">
+        <p>上海市徐汇区虹桥路808号加华商务中心D5栋三楼嘉福弹性福利平台</p>
+    </div>
+
+    <div class="operation_area jdshop_alignment_center">
+        <label>
+            <input class="select_key" type="checkbox" onclick="jdShoppingCart.checkBoxChoose(this)">设为默认
+        </label>
+        <div class="jdshop_alignment_center">
+            <a class="edit" href="../jdshop_address/add_address.html"><span></span>编辑</a>
+            <div class="delete"><span></span>删除</div>
+        </div>
+    </div>
+</div>
+
+
+<div class="delivery_address_list">
+    <div class="personal_info jdshop_alignment_left">
+        <p>庄中煲</p>
+        <p>15627166526</p>
+    </div>
+    <div class="address">
+        <p>上海市徐汇区虹桥路808号加华商务中心D5栋三楼嘉福弹性福利平台</p>
+    </div>
+
+    <div class="operation_area jdshop_alignment_center">
+        <label>
+            <input class="select_key" type="checkbox" onclick="jdShoppingCart.checkBoxChoose(this)">设为默认
+        </label>
+        <div class="jdshop_alignment_center">
+            <a class="edit" href="..jdshop_address/add_address.html"><span></span>编辑</a>
+            <div class="delete"><span></span>删除</div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function deleteAddress() {
+
+        var deleteCheckbox = document.getElementsByClassName('delete')
+
+        for (var i = 0; i < deleteCheckbox.length; i++) {
+
+            deleteCheckbox[i].addEventListener('click', function () {
+                jfShowTips.dialogShow({
+                    'mainText': '友情提示',
+                    'minText': '确认要删除改地址吗？',
+                    'checkFn': function () {
+                        //点击删除后做的事件
+                    }
+                })
+            })
+        }
+
+    }
+
+    deleteAddress();
+
+
+</script>
