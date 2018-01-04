@@ -1,0 +1,132 @@
+<!-- 商品退换方式-->
+<div class="return_mode jdshop_shadow">
+    <div class="return_type">
+        <div class="title">商品退回方式</div>
+        <div class="return_choose">
+            <div data-name="picking" class="return_tab selected">上门取件</div>
+            <div data-name="delivery" class="return_tab">送货到自提点</div>
+            <div data-name="express" class="return_tab">快递至京东</div>
+        </div>
+        <div class="explain_box">
+            <div class="return_explain">商品寄回地址将在审核通过后已短信的形式告知，或在申请记录中查询。京东不收取快递附加费。</div>
+            <div class="return_explain">请将商品送至京东任一自提点。</div>
+            <div class="return_explain">京东将在1-3天内上门取回商品。请确保是京东配送员能配送到的。</div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- 详细地址-->
+
+<div class="return_address jdshop_shadow">
+
+    <!-- 联系list -->
+    <div class="return_list no_line jdshop_alignment_center">
+        <div class="title">联系人</div>
+        <div class="inf_form">
+            <input type="text" value="庄中煲" placeholder="请输入联系人"/>
+        </div>
+    </div>
+    <!-- 手机号list -->
+    <div class="return_list jdshop_alignment_center">
+        <div class="title">手机号码</div>
+        <div class="inf_form">
+            <input type="number" pattern="[0-9]*" value="16891766278" placeholder="请输入手机号码"/>
+        </div>
+    </div>
+    <!-- 取件地址list -->
+    <div class="return_list" id="fetchAddress">
+        <div class="title">取件地址</div>
+        <div class="inf_form jdshop_alignment_center">
+            <div class="inf_address jdshop_alignment_top">
+                <p class="location_img"></p>
+                <p>上海市徐汇区虹桥路808号加华商务路808号加华商务中心D5栋三楼</p>
+            </div>
+            <a class="modify_address" href="../jdshop_address/delivery_address.html">
+                <p class="font_middle_gary">修改地址</p>
+            </a>
+        </div>
+    </div>
+
+    <div style="clear:both"></div>
+
+    <!-- 收货地址 -->
+    <div class="return_list" id="deliveryAddress">
+        <div>
+            <span class="address_title">收货地址</span>
+            <div class="inf_checkbox">
+            <span>
+                <p>和取件地址保持一致</p>
+                <p>（该地址是京东回寄给您的地址）</p>
+            </span>
+                <label>
+                    <input type="checkbox" class="switch_jd" id="switch_jd">
+                </label>
+
+            </div>
+            <div style="clear:both"></div>
+        </div>
+
+
+        <div class="address_inconsistency">
+            <!-- 联系list -->
+            <div class="return_list no_line jdshop_alignment_left">
+                <div class="title">联系人</div>
+                <div class="inf_form">
+                    <input type="text" value="庄中煲" placeholder="请输入联系人"/>
+                </div>
+            </div>
+            <!-- 手机号list -->
+            <div class="return_list jdshop_alignment_left">
+                <div class="title">手机号码</div>
+                <div class="inf_form">
+                    <input type="number" pattern="[0-9]*" value="16891766278" placeholder="请输入手机号码"/>
+                </div>
+            </div>
+            <!-- 取件地址list -->
+            <div class="return_list special_list">
+                <div class="title">收货地址</div>
+                <div class="inf_form jdshop_alignment_center">
+                    <div class="inf_address jdshop_alignment_top">
+                        <p class="location_img"></p>
+                        <p>上海市徐汇区虹桥路808号加华商务路808号加华商务中心D5栋三楼</p>
+                    </div>
+                    <a class="modify_address" href="../jdshop_address/delivery_address.html">
+                        <p class="font_middle_gary">修改地址</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- 收货地址不一致-->
+
+
+
+
+
+</div>
+
+<!-- 温馨提示-->
+<div class="reminder">提交服务单后，售后专员可能与您电话沟通，请保持手机畅通。</div>
+
+
+<script>
+
+
+
+    //商品退回方式
+    jfReturnService.chooseAddress();
+
+
+
+
+
+
+
+</script>
+
+
+

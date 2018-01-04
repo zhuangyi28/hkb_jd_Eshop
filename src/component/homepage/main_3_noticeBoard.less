@@ -1,0 +1,38 @@
+.homepage_notice_board{
+  margin: 5px 10px;
+  padding: 0 5px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px #E9E9E9;
+  .notice_title{
+    position: relative;
+    width: 134px;
+    height: 63px;
+    img{
+      width: 80%;
+      margin-left: 6px;
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      top: 6px;
+      right: 0;
+      height: 50px;
+      border-left: 1px solid #ddd;
+      -webkit-transform: scaleX(.4);
+      transform: scaleX(.4);
+    }
+  }
+  .notice_content{
+    color: #4a4a4a;
+    margin: 0 5px 0 10px;
+    font-size: 12px;
+    width: calc(100vh - 30rem);
+    div{
+      height: 38px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+  }
+}

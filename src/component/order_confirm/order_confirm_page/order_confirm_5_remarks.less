@@ -1,0 +1,46 @@
+.order_confirm_remarks{
+  background-color: #fff;
+  margin-bottom: 15px;
+  .textarea_list{
+    background-color: #fff;
+    position: relative;
+    padding: 10px 15px;
+    p:first-child{
+      width: 100px;
+    }
+    textarea,p+p {
+      width: calc(~'100% - 100px');
+      display: block;
+      font-family: 'arial Narrow', 'arial', '微软雅黑';
+      border: 0;
+      resize: none;
+      color: inherit;
+      font-size: 1em;
+      line-height: inherit;
+      outline: 0;
+      overflow: hidden;
+      &::-webkit-input-placeholder{
+        color: #ddd;
+      }
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 15px;
+      box-sizing: border-box;
+      width: 92%;
+      height: 1px;
+      color: #ddd;
+      border: 1px solid #ddd;
+      transform-origin: 0 0;
+      transform: scaleY(.6);
+    }
+    &:last-child:after{
+      content: '';
+      position: absolute;
+      top: 0;
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<!-- 顶部导航 -->
+<nav class="jd_top_bar">
+    <div class="tab_box"></div>
+    <div class="jd_top_contain jdshop_alignment_center">
+        <a class="left" onclick="window.history.go(-1)">
+            <p class="back"><img src="../../images/nav_go_back.png"></p>
+        </a>
+        <div class="content jdshop_alignment_center">填写发货单信息</div>
+        <a class="right">
+        </a>
+    </div>
+</nav>
+
+<%- include('./shopping_information.ejs') %>
+
+<!-- 底部导航-->
+
+<div class="shipping_information_button  jdshop_alignment_right">
+    <a class="sales_order_gary" href="../return_service/application_record.html">取消</a>
+    <a class="sales_order_red">提交</a>
+    <a class="sales_order_red2" id="view_order" href="../return_service/shopping_information.html">提交后继续填写</a>
+</div>

@@ -1,0 +1,56 @@
+.refund_photo{
+  background: #fff;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  .type_title{
+    margin-bottom: 10px;
+
+  }
+  .photo_content{
+    padding: 10px 0;
+    overflow-y: scroll;
+    .choose_file{
+      position: relative;
+      width: 71px;
+      height: 71px;
+      margin-right: 15px;
+      .thumbnail_img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 101;
+
+      }
+      img{
+      width: 71px;
+      height: 71px;
+    }
+      input{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 71px;
+        height: 71px;
+        opacity:0;
+        z-index: 100;
+        background:none;
+        outline:none;
+        border:0;
+        -webkit-tap-highlight-color: transparent;
+
+      }
+    }
+    .delete_img{
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      width: 20px;
+      height: 20px;
+      background: url("../images/customer_service_2_delete.png");
+      background-size: 100%;
+      z-index: 102;
+    }
+
+  }
+}

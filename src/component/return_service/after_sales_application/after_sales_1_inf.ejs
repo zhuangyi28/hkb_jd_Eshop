@@ -1,0 +1,75 @@
+<!-- 提示-->
+<div class="service_tip">
+    <img src="../../images/status_spot.png">
+    <p>本次售后由<span>京东</span>为您提供</p>
+</div>
+
+
+<div class="refund_inf jdshop_shadow">
+
+    <!-- 退换商品信息-->
+    <div class="after_sales_goods jdshop_alignment_top">
+        <div class="main_images">
+            <img src="../../images/product_list_2.jpg">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div>×2</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 服务类型 -->
+    <div class="service_type">
+        <div class="title">服务类型</div>
+        <div class="type_choose">
+            <div class="service_tab" data-name="return">退货</div>
+            <div class="service_tab" data-name="exchange">换货</div>
+            <div class="service_tab" data-name="repair">维修</div>
+        </div>
+    </div>
+
+    <!-- 申请数量-->
+    <div class="application_quantity">
+        <div class="title">申请数量</div>
+        <div class="volume_btn">
+            <span class="reduce">－</span>
+            <input type="number" pattern="[0-9]*" class="volume_input" value="1" readonly>
+            <span class="add">＋</span>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <!-- 退款方式-->
+    <div class="refund_method">
+        <div class="title">退款方式<span>原支付返回</span></div>
+        <div class="attention jdshop_alignment_left">
+            <div>注:</div>
+            <div>
+                <p>1、支付仅支持原支付返还。</p>
+                <p>2、京东退款到平台后，平台将在下一个工作日退款给您，到账时间以银行为准，一般是1-15个工作日。</p>
+            </div>
+        </div>
+        <div class="prompt">
+            提示：本订单使用了优惠券，整单商品都退货成功时，优惠券将返回您的优惠券列表中。非整单退时优惠券无法退还给您。
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+
+    //购物车加减
+    jfProductDetails.volumeChange();
+
+    //选择服务类型
+    jfReturnService.selectTab()
+
+
+
+
+</script>

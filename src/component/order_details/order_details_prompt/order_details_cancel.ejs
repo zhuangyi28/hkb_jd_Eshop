@@ -1,0 +1,30 @@
+<div class="jf_dialog" id="order_cancel">
+
+    <div class="dialog_bg"></div>
+
+    <div class="dialog_box">
+        <div class="text_dialog_container">
+            <div class="text_big">取消订单提醒</div>
+            <div class="text_small">
+                <p>您确定要取消订单吗？</p>
+                <p>如果要取消,可勾选把商品自动加入到购物车</p>
+                <label>
+                    <input class="cancel_radio" type="checkbox" name="radio" checked>商品自动加入到购物车
+                </label>
+            </div>
+            <div class="dialog_button">
+                <a class="dialog_check red" href="../jdshop_order/shop_order.html">确定</a>
+                <a class="dialog_cancel gray" onclick="orderCancel.hide()">返回</a></div>
+
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+
+    orderCancel = new jfDialog({
+        'ele':'order_cancel'
+    })
+</script>

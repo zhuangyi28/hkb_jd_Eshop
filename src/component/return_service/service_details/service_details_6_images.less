@@ -1,0 +1,121 @@
+.details_images{
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  .images_title {
+    position: relative;
+    padding-bottom: 15px;
+    div+div{
+      color: #ababab;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      box-sizing: border-box;
+      width: 100%;
+      height: 1px;
+      color: #ddd;
+      border-bottom: 1px solid #ddd;
+      transform-origin: 0 0;
+      transform: scaleY(.6);
+    }
+  }
+  .images_content{
+    padding: 10px 0;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling : touch;
+    .images_details{
+      position: relative;
+      width: 71px;
+      height: 71px;
+      margin-right: 15px;
+      //border: 1px solid #ddd;
+    }
+      img{
+        height: 71px;
+        width: 71px;
+        display: block;
+        margin: 0 auto;
+      }
+
+  }
+}
+
+/*弹出层*/
+.service_pop_up{
+  display: none;
+
+.service_show_content{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  .img_content{
+    display: flex;
+    width: calc(80vw);
+    position: fixed;
+    z-index: 1001;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    background-color: white;
+    transform-origin: 50% 50%;
+    animation: ServiceShow .5s both;
+
+    @keyframes dialogShow {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    img{
+      width: 100%;
+      height: 100%;
+    }
+    .img_box ,.images_details{
+      position: relative;
+    }
+  }
+
+}
+
+  .delete_pic{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    color: white;
+    z-index: 1005;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background: #ababab;
+    border-radius: 50%;
+  }
+  /*背景*/
+  .service_shadow{
+    position: fixed;
+    left: -100%;
+    top: -100%;
+    width: 300%;
+    height: 300%;
+    background: #4a4a4a;
+    opacity: 1;
+    z-index: 1000;
+    animation: ServiceBgChange .5s;
+    transition: opacity .5s;
+  }
+  @keyframes ServiceBgChange {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+

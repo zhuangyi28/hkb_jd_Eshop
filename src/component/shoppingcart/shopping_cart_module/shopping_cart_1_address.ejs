@@ -1,0 +1,56 @@
+<!--地址选择模块-->
+<div class="product_details_address" onclick="productAddress.show({fn:
+
+function(){
+
+     addressChoose.run({
+
+     //ip地址
+     yourUrl:'http://jd-test.jia-fu.cn',
+
+     type: 'get',
+
+     targetDom:document.getElementById('product_address_show'),
+
+     //初始化id
+     startId:['1','72','2799'],
+
+     //初始化name
+     startName:['北京', '朝阳区', '三环以内'],
+
+     fn:function() {
+
+       productAddress.hide()
+       //城市名称数组
+       console.log(addressChoose.addressCity)
+       //城市id数组
+       console.log(addressChoose.addressCityId)
+     }
+
+     })
+}
+
+})">
+    <!-- 已选地址-->
+    <div class="choose_address jdshop_alignment_center">
+        <div class="details_address">
+            <div><span>送至</span><img
+                        src="../../images/product_details_1_location.png"><span id="product_address_show">北京市，朝阳区，三环以内</span></div>
+        </div>
+        <!-- 有无货 -->
+        <div class="details_stock"><img src="../../images//product_go.png"></div>
+    </div>
+
+</div>
+
+<script>
+
+    productAddress = new jfShowPop({
+
+        'ele': 'product_address',
+
+        'scrollClassname':'address'
+
+    })
+
+</script>

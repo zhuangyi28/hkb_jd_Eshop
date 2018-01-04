@@ -1,0 +1,117 @@
+.panic_buying_2_list{
+  position: relative;
+  color: #4a4a4a;
+  padding: 15px;
+
+  .panic_buying_2_list_1{
+
+    margin-right: 10px;
+    width: 90px;
+    height: 90px;
+
+    img{
+      width: 90px;
+      height: 90px;
+      vertical-align:middle
+    }
+
+  }
+
+
+
+  .panic_buying_2_list_2{
+    text-align: left;
+    float: right;
+    width: calc(~'100% - 100px');
+
+    span.title{
+      display: inline-block;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+      font-size: 14px;
+      min-height: 54px;
+      line-height: 18px;
+
+
+    }
+
+    .buy_number{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 12px;
+
+      .panic_buying_2_list_3 {
+
+        font-weight:bold;
+        color: #ff4646;
+        font-size: 18px;
+        .price{
+
+          color: #ff4646;
+          font-size: 16px;
+          font-weight:bold;
+          text-decoration: none;
+        }
+        span{
+          color: #ababab;
+          font-weight: normal;
+          text-decoration: line-through;
+          font-size: 12px;
+          margin-right: 5px;
+        }
+
+        &:after{
+          content: "";
+          height: 18px;
+          width: 1px;
+          position: absolute;
+          top: 76%;
+          left: 54%;
+        }
+      }
+      .panic_buying_2_list_5{
+
+        width:30%;
+        background: #ff4646;
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 28.8px;
+
+      }
+
+
+
+    }
+  }
+
+  &:active{
+
+    background: #f1f1f1;
+  }
+
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    width: 92%;
+    border-bottom: 1px solid #dddddd;
+    transform-origin: 0 0;
+    transform: scaleY(.6);
+  }
+
+  &:last-of-type:after{
+    content: '';
+    border-bottom: none;
+  }
+
+
+
+
+
+
+}

@@ -1,0 +1,126 @@
+
+.main_cancel_service {
+
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 4px 0 2px rgba(0, 0, 0, .1);
+  padding-bottom: 25px;
+  .cancel_tip {
+
+    padding: 8px 15px;
+    font-size: 14px;
+    background: rgba(243, 152, 0, .2);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fc6329;
+    img {
+      width: 16px;
+      height: 16px;
+    }
+    p {
+      padding-left: 8px;
+      line-height: 16px;
+    }
+
+  }
+
+  .cancel_description {
+
+    padding: 15px;
+
+    .cancel_service_reason {
+      margin-bottom: 10px;
+    }
+
+    .textarea_wrapper {
+      background-color: #f5f5f9;
+      height: 90px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    textarea {
+      display: block;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 14px;
+      height: 75px;
+      resize: none;
+      background-color: transparent;
+      box-sizing: border-box;
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+      &::-webkit-input-placeholder {
+        color: #ababab;
+        text-align: start;
+      }
+    }
+    .number_words_cancel {
+      position: relative;
+      padding-top: 2px;
+      top: -5px;
+      right: 5px;
+      text-align: right;
+      background-color: #f5f5f9;
+      color: #ababab;
+    }
+
+  }
+
+}
+
+/*底部按钮*/
+
+.cancel_service_button {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: right;
+  right: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 30px;
+
+  .sales_order_gary {
+    padding: 3px 25px;
+    border-radius: 8px;
+    position: relative;
+    right: 30px;
+    top: 12px;
+
+    &:active {
+      opacity: .6;
+      color: hsla(0, 0, 100%, .6);
+    }
+  }
+  &.cancel_service_button {
+
+    a.sales_order_gary {
+      border: 1px solid #8a8a8a;
+      color: #8a8a8a;
+    }
+  }
+
+  .sales_order_red {
+    position: relative;
+    padding: 3px 25px;
+    border-radius: 8px;
+    right: 15px;
+    top: 12px;
+
+    &:active {
+      opacity: .6;
+      color: hsla(0, 0, 100%, .6);
+    }
+  }
+  &.cancel_service_button {
+    a.sales_order_red {
+      border: 1px solid #ff4949;
+      color: #ff4949;
+
+    }
+  }
+}
+

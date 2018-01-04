@@ -1,0 +1,201 @@
+
+.main_shipping_information {
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 4px 0 2px rgba(0, 0, 0, .1);
+  overflow-x: hidden;
+
+  .shipping_information_remind {
+
+    .goods {
+      z-index: 500;
+      padding: 5px 10px;
+      font-size: 13px;
+      background-color: #f5e2c7;
+      color: #fc6329;
+      width: 95.2%;
+      /*white-space: nowrap;*/
+
+      img {
+
+        height: 15px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  /*快递信息*/
+
+  .shipping_information_box {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+
+    .shipping_information_reason {
+      min-width: 80px;
+      color: #8a8a8a;
+      padding-right: 15px;
+    }
+    .shipping_information_click {
+      border: 0;
+      outline: 0;
+      -webkit-appearance: none;
+      -webkit-tap-highlight-color: transparent;
+      font-size: inherit;
+      color: inherit;
+      background: #fff;
+      width: calc(~'100% - 80px');
+
+      option.select_holder{
+        color: #ddd;
+      }
+      select{
+
+        background: #fff;
+        -webkit-appearance: none;
+        appearance: none;
+      }
+
+      input{
+        border: 0;
+        outline: 0;
+        -webkit-appearance: none;
+        -webkit-tap-highlight-color: transparent;
+        font-size: inherit;
+        color: inherit;
+        width: 100%;
+        background: #fff;
+        &::-webkit-input-placeholder{
+          color: #ddd;
+        }
+           }
+    }
+    &:last-child:after{
+      content: '';
+      border-bottom: none;
+
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 15px;
+      box-sizing: border-box;
+      width: 92%;
+      height: 1px;
+      color: #ddd;
+      border-bottom: 1px solid #ddd;
+      transform-origin: 0 0;
+      transform: scaleY(0.6);
+    }
+    }
+}
+
+/*底部按钮*/
+
+.shipping_information_button {
+  position: fixed;
+  z-index: 500;
+  bottom: 0;
+  left: 0;
+  height: 55px;
+  width: 100%;
+  font-size: 16px;
+  background-color: #fff;
+  &:before{
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    -webkit-transform: scaleY(0.6);
+    transform: scaleY(0.6);
+  }
+
+  .sales_order_gary {
+    position: relative;
+    display: block;
+    margin: 0 10px;
+    width: 100px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2;
+    border-radius: 5px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+
+
+    &:active {
+      opacity: .6;
+      color: hsla(0, 0, 100%, .6);
+    }
+  }
+  &.shipping_information_button {
+
+    a.sales_order_gary {
+      border: 1px solid #8a8a8a;
+      color: #8a8a8a;
+    }
+  }
+
+  .sales_order_red {
+    position: relative;
+    display: block;
+    margin: 0 10px;
+    width: 100px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2;
+    border-radius: 5px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+
+    &:active {
+      opacity: .6;
+      color: hsla(0, 0, 100%, .6);
+    }
+  }
+  &.shipping_information_button {
+    a.sales_order_red{
+      border: 1px solid #ff4949;
+      color: #ff4949;
+    }
+  }
+
+.sales_order_red2 {
+  /*position: relative;
+  padding: 3px 25px;
+  border-radius: 8px;
+  right: 15px;
+  top: 12px;*/
+  position: relative;
+  display: block;
+  margin: 0 10px;
+  width: 125px;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2;
+  border-radius: 5px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+
+  &:active {
+    opacity: .6;
+    color: hsla(0, 0, 100%, .6);
+  }
+}
+&.shipping_information_button {
+  a.sales_order_red2{
+    border: 1px solid #ff4949;
+    color: #ff4949;
+  }
+}
+}

@@ -1,0 +1,56 @@
+<!-- 顶部导航 -->
+<nav class="jd_top_bar">
+    <div class="tab_box"></div>
+    <div class="jd_top_contain jdshop_alignment_center">
+        <a class="left" onclick="window.history.go(-1)">
+            <p class="back"><img src="../../images/nav_go_back.png"></p>
+        </a>
+        <div class="content jdshop_alignment_center">
+            确认订单
+        </div>
+        <a class="right">
+
+        </a>
+    </div>
+</nav>
+
+
+<div class="order_confirm">
+
+    <%- include('order_confirm_page/order_confirm_1_address.ejs')%>
+
+    <%- include('order_confirm_page/order_confirm_2_list.ejs')%>
+
+    <%- include('order_confirm_page/order_confirm_3_total.ejs')%>
+
+    <%- include('order_confirm_page/order_confirm_4_distribution.ejs')%>
+
+    <%- include('order_confirm_page/order_confirm_5_remarks.ejs')%>
+
+</div>
+
+
+<%- include('order_confirm_prompt/order_confirm_discount.ejs')%>
+<!--注意-->
+<!--<div class="attention_list">
+    <div class="tab_box"></div>
+    <div class="text font_org">注意：提交订单后24小时内完成支付，否则订单会被自动取消</div>
+</div>-->
+
+<!-- footer -->
+<footer class="bottom_order_tabbar">
+    <div class="tab_box"></div>
+    <div class="order_tabbar_contain jdshop_alignment_right">
+        <div>应付款：<span class="font_red">￥13,000.00</span></div>
+        <a class="order_btn red" onclick="jfShowTips.dialogShow({
+         'mainText':'附件或赠品无货提示',
+         'minText':'部分附件或赠品无货，请选择是否提交订单，主商品下的附件或赠品无货不能提交订单，但如要放弃附件或赠品则可提交订单。如:某主商品下有2个附件+3个赠品，某个附件/赠品无货，放弃时将会把该附件或赠品里的都一起放弃。如有疑问请咨询：400-821-6990',
+         'checkBtnText':'我自愿放弃赠品/附件并提交订单',
+         'cancleBtnText':'关闭提示',
+         'checkFn': function() {
+           window.location.href='../jdshop_purchasing_process/payment_successful.html'
+         }
+        }
+        )">立即下单</a>
+    </div>
+</footer>

@@ -1,0 +1,147 @@
+/*商品信息*/
+.refund_inf{
+  margin-bottom: 10px;
+}
+.after_sales_goods ,.service_type,.application_quantity,.refund_method{
+  position: relative;
+  background: #fff;
+  padding: 15px 10px;
+  &:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    box-sizing: border-box;
+    width: 92%;
+    height: 1px;
+    color: #ddd;
+    border-bottom: 1px solid #ddd;
+    transform-origin: 0 0;
+    transform: scaleY(.6);
+  }
+}
+/*商品详情*/
+.after_sales_goods{
+
+  .main_images{
+    width: 90px;
+    height: 90px;
+    img{
+      width: 100%;
+      height: 100%;
+      vertical-align: middle;
+    }
+
+  }
+  .main_details{
+    position: relative;
+    width: 265px;
+    width: calc(~'100% - 90px');
+  }
+
+
+}
+/*服务类型*/
+.service_type{
+
+  .title{
+    margin-bottom: 5px;
+  }
+
+  .type_choose{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    div{
+      border: 1px solid #ababab;
+      color: #ababab;
+      width: 90px;
+      padding: 2px 0;
+      text-align: center;
+      border-radius: 5px;
+      margin-right: 15px;
+      &.selected{
+        border: 1px solid #ff4646;
+        color: #ff4646;
+      }
+    }
+
+  }
+
+}
+/*申请数量*/
+.application_quantity{
+  display:none;
+
+  .title{
+    min-width: 80px;
+    float: left;
+  }
+  .volume_btn{
+    float: left;
+  }
+}
+/*退回方式*/
+.refund_method{
+  display: none;
+  position: relative;
+  font-size: 12px;
+  padding-bottom: 10px;
+  .title{
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  span{
+    margin-left: 30px;
+  }
+  .attention{
+    position: relative;
+    color: #8a8a8a;
+    div{
+      width: 40px;
+    }
+    div+div{
+      width: 315px;
+      width: calc(~'100% - 40px');
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      bottom: -7px;
+      left: 0;
+      box-sizing: border-box;
+      width: 100%;
+      height: 1px;
+      color: #ddd;
+      border-bottom: 1px solid #ddd;
+      transform-origin: 0 0;
+      transform: scaleY(.6)
+    }
+  }
+  .prompt{
+    color: #fc8b00;
+    margin-top: 15px;
+  }
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    box-sizing: border-box;
+    width: 92%;
+    height: 1px;
+    color: #ddd;
+    border-bottom: 1px solid #ddd;
+    transform-origin: 0 0;
+    transform: scaleY(.6);
+  }
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: none;
+  }
+}
