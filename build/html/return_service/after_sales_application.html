@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="../../css/jdShopMain.css">
+ 
+    <!--通用媒体查询-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1, maximum-scale=1">
+
+
+
+    <title>申请售后服务</title>
+</head>
+
+<body>
+
+
+
+<!-- 顶部导航 -->
+<nav class="jd_top_bar">
+    <div class="tab_box"></div>
+    <div class="jd_top_contain jdshop_alignment_center">
+        <a class="left" onclick="window.history.go(-1)">
+            <p class="back"><img src="../../images/nav_go_back.png"></p>
+        </a>
+        <div class="content jdshop_alignment_center">
+            申请售后服务
+        </div>
+        <a class="right">
+
+        </a>
+    </div>
+</nav>
+
+<!-- 提示-->
+<div class="service_tip">
+    <img src="../../images/status_spot.png">
+    <p>本次售后由<span>京东</span>为您提供</p>
+</div>
+
+
+<div class="refund_inf jdshop_shadow">
+
+    <!-- 退换商品信息-->
+    <div class="after_sales_goods jdshop_alignment_top">
+        <div class="main_images">
+            <img src="../../images/product_list_2.jpg">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div>×2</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 服务类型 -->
+    <div class="service_type">
+        <div class="title">服务类型</div>
+        <div class="type_choose">
+            <div class="service_tab" data-name="return">退货</div>
+            <div class="service_tab" data-name="exchange">换货</div>
+            <div class="service_tab" data-name="repair">维修</div>
+        </div>
+    </div>
+
+    <!-- 申请数量-->
+    <div class="application_quantity">
+        <div class="title">申请数量</div>
+        <div class="volume_btn">
+            <span class="reduce">－</span>
+            <input type="number" pattern="[0-9]*" class="volume_input" value="1" readonly>
+            <span class="add">＋</span>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <!-- 退款方式-->
+    <div class="refund_method">
+        <div class="title">退款方式<span>原支付返回</span></div>
+        <div class="attention jdshop_alignment_left">
+            <div>注:</div>
+            <div>
+                <p>1、支付仅支持原支付返还。</p>
+                <p>2、京东退款到平台后，平台将在下一个工作日退款给您，到账时间以银行为准，一般是1-15个工作日。</p>
+            </div>
+        </div>
+        <div class="prompt">
+            提示：本订单使用了优惠券，整单商品都退货成功时，优惠券将返回您的优惠券列表中。非整单退时优惠券无法退还给您。
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+<!-- 商品退换描述-->
+<div class="refund_description jdshop_shadow">
+    <div class="type_title">问题描述</div>
+    <div class="textarea_wrapper">
+        <textarea placeholder="请您在此处描述问题" maxlength="500" id="textareaList"></textarea>
+        <div class="number_words"><span>0</span>/500</div>
+    </div>
+
+</div>
+
+
+
+<!-- 商品退换拍照-->
+<div class="refund_photo jdshop_shadow">
+    <div class="type_title jdshop_alignment_center">
+        <p>问题图片/拍图</p>
+        <p class="font_middle_gary"><span id="image_length">0</span>/10</p>
+    </div>
+    <div class="photo_content jdshop_alignment_left">
+        <!-- 选择框-->
+        <!--<div class="choose_file">
+            &lt;!&ndash; 缩略图 &ndash;&gt;
+            <img src="../../images/banner_1.jpg" class="thumbnail_img">
+            &lt;!&ndash; 背景图&ndash;&gt;
+
+            &lt;!&ndash; 上传照片&ndash;&gt;
+
+            &lt;!&ndash; 删除按钮&ndash;&gt;
+            <div class="delete_img"></div>
+        </div>-->
+
+        <!-- 选择框-->
+        <div class="choose_file">
+            <img src="../../images/customer_service_1_photo.png">
+            <input type="file" multiple="multiple" accept="image/*" readonly>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+<!-- 商品退换方式-->
+<div class="return_mode jdshop_shadow">
+    <div class="return_type">
+        <div class="title">商品退回方式</div>
+        <div class="return_choose">
+            <div data-name="picking" class="return_tab selected">上门取件</div>
+            <div data-name="delivery" class="return_tab">送货到自提点</div>
+            <div data-name="express" class="return_tab">快递至京东</div>
+        </div>
+        <div class="explain_box">
+            <div class="return_explain">商品寄回地址将在审核通过后已短信的形式告知，或在申请记录中查询。京东不收取快递附加费。</div>
+            <div class="return_explain">请将商品送至京东任一自提点。</div>
+            <div class="return_explain">京东将在1-3天内上门取回商品。请确保是京东配送员能配送到的。</div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- 详细地址-->
+
+<div class="return_address jdshop_shadow">
+
+    <!-- 联系list -->
+    <div class="return_list no_line jdshop_alignment_center">
+        <div class="title">联系人</div>
+        <div class="inf_form">
+            <input type="text" value="庄中煲" placeholder="请输入联系人">
+        </div>
+    </div>
+    <!-- 手机号list -->
+    <div class="return_list jdshop_alignment_center">
+        <div class="title">手机号码</div>
+        <div class="inf_form">
+            <input type="number" pattern="[0-9]*" value="16891766278" placeholder="请输入手机号码">
+        </div>
+    </div>
+    <!-- 取件地址list -->
+    <div class="return_list" id="fetchAddress">
+        <div class="title">取件地址</div>
+        <div class="inf_form jdshop_alignment_center">
+            <div class="inf_address jdshop_alignment_top">
+                <p class="location_img"></p>
+                <p>上海市徐汇区虹桥路808号加华商务路808号加华商务中心D5栋三楼</p>
+            </div>
+            <a class="modify_address" href="../jdshop_address/delivery_address.html">
+                <p class="font_middle_gary">修改地址</p>
+            </a>
+        </div>
+    </div>
+
+    <div style="clear:both"></div>
+
+    <!-- 收货地址 -->
+    <div class="return_list" id="deliveryAddress">
+        <div>
+            <span class="address_title">收货地址</span>
+            <div class="inf_checkbox">
+            <span>
+                <p>和取件地址保持一致</p>
+                <p>（该地址是京东回寄给您的地址）</p>
+            </span>
+                <label>
+                    <input type="checkbox" class="switch_jd" id="switch_jd">
+                </label>
+
+            </div>
+            <div style="clear:both"></div>
+        </div>
+
+
+        <div class="address_inconsistency">
+            <!-- 联系list -->
+            <div class="return_list no_line jdshop_alignment_left">
+                <div class="title">联系人</div>
+                <div class="inf_form">
+                    <input type="text" value="庄中煲" placeholder="请输入联系人">
+                </div>
+            </div>
+            <!-- 手机号list -->
+            <div class="return_list jdshop_alignment_left">
+                <div class="title">手机号码</div>
+                <div class="inf_form">
+                    <input type="number" pattern="[0-9]*" value="16891766278" placeholder="请输入手机号码">
+                </div>
+            </div>
+            <!-- 取件地址list -->
+            <div class="return_list special_list">
+                <div class="title">收货地址</div>
+                <div class="inf_form jdshop_alignment_center">
+                    <div class="inf_address jdshop_alignment_top">
+                        <p class="location_img"></p>
+                        <p>上海市徐汇区虹桥路808号加华商务路808号加华商务中心D5栋三楼</p>
+                    </div>
+                    <a class="modify_address" href="../jdshop_address/delivery_address.html">
+                        <p class="font_middle_gary">修改地址</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- 收货地址不一致-->
+
+
+
+
+
+</div>
+
+<!-- 温馨提示-->
+<div class="reminder">提交服务单后，售后专员可能与您电话沟通，请保持手机畅通。</div>
+
+
+
+
+
+
+
+
+<div class="refund_btn_area">
+    <a class="btn_contain" href="javascript:;">提交</a>
+</div>
+
+
+<script src="../../js/jdShopMain.js"></script>
+<script>addEventListener('load',function(){
+
+    //购物车加减
+    jfProductDetails.volumeChange();
+
+    //选择服务类型
+    jfReturnService.selectTab()
+
+
+
+
+
+
+
+
+
+    //问题描述 字数
+
+    document.getElementById('textareaList').addEventListener('focus',jfReturnService.countWordsDescription,false);
+
+    document.getElementById('textareaList').addEventListener('input',jfReturnService.countWordsDescription,false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //上传图片
+    jfReturnService.addPhoto();
+
+
+
+
+
+
+
+    //商品退回方式
+    jfReturnService.chooseAddress();
+
+
+
+
+
+
+
+
+})
+</script>
+</body>
+
+</html>

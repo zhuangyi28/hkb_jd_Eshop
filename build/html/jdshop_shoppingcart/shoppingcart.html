@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="../../css/jdShopMain.css">
+ 
+    <!--通用媒体查询-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1, maximum-scale=1">
+
+
+
+    <title>嘉福京东购物平台</title>
+</head>
+
+<body>
+
+<!-- 顶部导航 -->
+<nav class="jd_top_bar">
+    <div class="tab_box"></div>
+    <div class="jd_top_contain jdshop_alignment_center">
+        <a class="left">
+            <p class="icon_btn"></p>
+            <p>嘉福平台</p>
+        </a>
+        <div class="content jdshop_alignment_center">
+            购物车
+        </div>
+        <a class="right" id="editTabBtn">
+            编辑
+        </a>
+    </div>
+</nav>
+
+
+<!-- 页面内容 -->
+
+<div class="shopping_cart_module">
+
+    <!--地址选择模块-->
+<div class="product_details_address" onclick="productAddress.show({fn:
+
+function(){
+
+     addressChoose.run({
+
+     //ip地址
+     yourUrl:'http://jd-test.jia-fu.cn',
+
+     type: 'get',
+
+     targetDom:document.getElementById('product_address_show'),
+
+     //初始化id
+     startId:['1','72','2799'],
+
+     //初始化name
+     startName:['北京', '朝阳区', '三环以内'],
+
+     fn:function() {
+
+       productAddress.hide()
+       //城市名称数组
+       console.log(addressChoose.addressCity)
+       //城市id数组
+       console.log(addressChoose.addressCityId)
+     }
+
+     })
+}
+
+})">
+    <!-- 已选地址-->
+    <div class="choose_address jdshop_alignment_center">
+        <div class="details_address">
+            <div><span>送至</span><img src="../../images/product_details_1_location.png"><span id="product_address_show">北京市，朝阳区，三环以内</span></div>
+        </div>
+        <!-- 有无货 -->
+        <div class="details_stock"><img src="../../images//product_go.png"></div>
+    </div>
+
+</div>
+
+
+
+    <!-- 配送说明 -->
+<div class="shopping_cart_2_instruction">
+
+    <img src="../../images/shopping_cart_1_jdlogo.png"><span class="font_middle_gary">京东自营，满99元包邮（偏远地区除外）</span>
+
+</div>
+
+    <!-- 商品列表 -->
+<div class="shopping_cart_3_list" id="list_contain">
+    <!-- list copy -->
+    <div class="list_contain">
+
+        <div class="jdshop_alignment_center">
+
+            <label>
+                <input class="radio" type="checkbox" name="radio">
+            </label>
+
+            <a class="goods_list jdshop_alignment_top">
+                <div class="main_images">
+                    <img data-src="../../images/product_list_4.jpg" src="../../images/img_loading.gif" class="loading_img">
+                </div>
+                <div class="main_details">
+                    <div class="title">科沃斯（Ecovacs）地宝魔钻(BFD-wwt) 扫地机器人家用吸尘器全自动智能拖地机</div>
+                    <div class="sku font_middle_gary"><span>重量:5.26kg</span><span>颜色:魔钻 千帕吸力 高颜值</span></div>
+
+                    <div class="sku_volume_purchased jdshop_alignment_center">
+                        <div class="price font_red"><span>￥</span>899.00</div>
+                        <div class="volume_btn">
+                            <span class="reduce">－</span>
+                            <input type="number" pattern="[0-9]*" class="volume_input" value="1">
+                            <span class="add">＋</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </a>
+
+        </div>
+    </div>
+    <!-- list copy out of stock-->
+    <div class="list_contain out_of_stock">
+
+        <div class="jdshop_alignment_center">
+
+            <label>
+                <input class="radio" type="checkbox" name="radio">
+            </label>
+
+            <a class="goods_list jdshop_alignment_top">
+                <div class="main_images">
+                    <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+                </div>
+                <div class="main_details">
+                    <div class="title">小米(MI)Air 13.3英寸全金属超轻薄笔记本电脑(i5-6200U 8G 256G PCIE固态硬盘 940MX独显 FHD WIN10)银</div>
+                    <div class="sku font_middle_gary"><span>重量:2.45kg</span><span>颜色:【13.3英寸】I5-6200U 8G 256G</span>
+                    </div>
+
+                    <div class="sku_volume_purchased jdshop_alignment_center">
+                        <div class="price font_red"><span>￥</span>5399.00</div>
+                        <div class="volume_btn">
+                            <span class="reduce">－</span>
+                            <input type="number" pattern="[0-9]*" class="volume_input" value="0">
+                            <span class="add">＋</span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </a>
+
+        </div>
+    </div>
+    <!-- list copy -->
+    <div class="list_contain ">
+
+        <div class="jdshop_alignment_center">
+
+            <label>
+                <input class="radio" type="checkbox" name="radio">
+            </label>
+
+            <a class="goods_list jdshop_alignment_top">
+                <div class="main_images"><img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img"></div>
+                <div class="main_details">
+                    <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+                    <div class="sku font_middle_gary"><span>重量:5.26kg</span><span>颜色:魔钻 千帕吸力 高颜值</span></div>
+
+                    <div class="sku_volume_purchased jdshop_alignment_center">
+                        <div class="price font_red"><span>￥</span>1399.00</div>
+                        <div class="volume_btn">
+                            <span class="reduce">－</span>
+                            <input type="number" pattern="[0-9]*" class="volume_input" value="1">
+                            <span class="add">＋</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </a>
+
+        </div>
+    </div>
+    <!-- list copy -->
+    <div class="list_contain ">
+
+        <div class="jdshop_alignment_center">
+
+            <label>
+                <input class="radio" type="checkbox" name="radio">
+            </label>
+
+            <a class="goods_list jdshop_alignment_top">
+                <div class="main_images"><img data-src="../../images/product_list_4.jpg" src="../../images/img_loading.gif" class="loading_img"></div>
+                <div class="main_details">
+                    <div class="title">科沃斯（Ecovacs）地宝魔钻(BFD-wwt) 扫地机器人家用吸尘器全自动智能拖地机</div>
+                    <div class="sku font_middle_gary"><span>重量:5.26kg</span><span>颜色:魔钻 千帕吸力 高颜值</span></div>
+
+                    <div class="sku_volume_purchased jdshop_alignment_center">
+                        <div class="price font_red"><span>￥</span>2456.00</div>
+                        <div class="volume_btn">
+                            <span class="reduce">－</span>
+                            <input type="number" pattern="[0-9]*" class="volume_input" value="1">
+                            <span class="add">＋</span>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </a>
+
+        </div>
+    </div>
+    <!-- list copy -->
+    <div class="list_contain ">
+
+        <div class="jdshop_alignment_center">
+
+            <label>
+                <input class="radio" type="checkbox" name="radio">
+            </label>
+
+            <a class="goods_list jdshop_alignment_top">
+                <div class="main_images"><img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img"></div>
+                <div class="main_details">
+                    <div class="title">科沃斯（Ecovacs）地宝魔钻(BFD-wwt) 扫地机器人家用吸尘器全自动智能拖地机</div>
+                    <div class="sku font_middle_gary"><span>重量:5.26kg</span><span>颜色:魔钻 千帕吸力 高颜值</span></div>
+
+                    <div class="sku_volume_purchased jdshop_alignment_center">
+                        <div class="price font_red"><span>￥</span>2456.00</div>
+                        <div class="volume_btn">
+                            <span class="reduce">－</span>
+                            <input type="number" pattern="[0-9]*" class="volume_input" value="1">
+                            <span class="add">＋</span>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </a>
+
+        </div>
+    </div>
+    <!-- list copy -->
+    <div class="list_contain ">
+
+        <div class="jdshop_alignment_center">
+
+            <label>
+                <input class="radio" type="checkbox" name="radio">
+            </label>
+
+            <a class="goods_list jdshop_alignment_top">
+                <div class="main_images"><img data-src="../../images/product_list_3.jpg" src="../../images/img_loading.gif" class="loading_img"></div>
+                <div class="main_details">
+                    <div class="title">科沃斯（Ecovacs）地宝魔钻(BFD-wwt) 扫地机器人家用吸尘器全自动智能拖地机</div>
+                    <div class="sku font_middle_gary"><span>重量:5.26kg</span><span>颜色:魔钻 千帕吸力 高颜值</span></div>
+
+                    <div class="sku_volume_purchased jdshop_alignment_center">
+                        <div class="price font_red"><span>￥</span>2456.00</div>
+                        <div class="volume_btn">
+                            <span class="reduce">－</span>
+                            <input type="number" pattern="[0-9]*" class="volume_input" value="1">
+                            <span class="add">＋</span>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </a>
+
+        </div>
+    </div>
+    <!-- list copy out of stock-->
+    <div class="list_contain  out_of_stock">
+
+        <div class="jdshop_alignment_center">
+
+            <label>
+                <input class="radio" type="checkbox" name="radio">
+            </label>
+
+            <div class="goods_list jdshop_alignment_top">
+                <div class="main_images"><img data-src="../../images/product_list_3.jpg" src="../../images/img_loading.gif" class="loading_img"></div>
+                <div class="main_details">
+                    <div class="title">科沃斯（Ecovacs）地宝魔钻(BFD-wwt) 扫地机器人家用吸尘器全自动智能拖地机</div>
+                    <div class="sku font_middle_gary"><span>重量:5.26kg</span><span>颜色:魔钻 千帕吸力 高颜值</span></div>
+
+                    <div class="sku_volume_purchased jdshop_alignment_center">
+                        <div class="price font_red"><span>￥</span>1399.00</div>
+                        <div class="volume_btn">
+                            <span class="reduce">－</span>
+                            <input type="number" pattern="[0-9]*" class="volume_input" value="0">
+                            <span class="add">＋</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+</div>
+
+
+<div id="shopping_cart_prompt">
+
+    
+
+<div class="jf_pop_up" id="product_address">
+
+    <div class="jf_pop_up_main">
+
+        <div class="pop_top">
+
+            <div class="pop_title">请选择地址</div>
+
+            <div class="pop_cancel"></div>
+
+<!--            <div class="pop_line"></div>-->
+
+
+        </div>
+
+        <div class="pop_main">
+
+            <div class="product_prompt_address">
+
+                <div id="jd_address_select">
+
+                    <div class="top_address jdshop_alignment_middle">
+
+                        <div>请选择</div>
+
+                        <div></div>
+
+                        <div></div>
+
+                        <div></div>
+
+                        <div></div>
+
+                    </div>
+
+                    <div class="address"></div>
+
+                    <div class="address"></div>
+
+                    <div class="address"></div>
+
+                    <div class="address"></div>
+
+                    <div class="address"></div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="jf_pop_up_bg">
+
+    </div>
+
+</div>
+
+
+
+
+</div>
+
+<!-- 切换tab-->
+
+
+<!-- 编辑 -->
+<div class="operation_tab jdshop_alignment_center" id="settlementTab">
+    <div class="jdshop_alignment_left">
+        <label>
+            <input class="radio allcheck" type="checkbox"><span>全选</span>
+        </label>
+        <div class="price">合计:<span class="font_red">￥139000.00</span></div>
+    </div>
+    <a class="operation_btn orange" href="../jdshop_purchasing_process/order_confirm.html">去结算</a>
+</div>
+<!-- 删除 -->
+<div class="operation_tab jdshop_alignment_center" id="deleteTab">
+    <div class="jdshop_alignment_left">
+        <label>
+            <input class="radio allcheck" type="checkbox"><span>全选</span>
+        </label>
+    </div>
+    <a class="operation_btn red" id="deleteBtn">删除</a>
+</div>
+
+
+<!-- 底部导航 -->
+<footer class="bottom_tabbar">
+    <div class="tab_box"></div>
+    <div class="bottom_tabbar_contain jdshop_alignment_center ">
+        <a href="../jdshop_homepage/main.html" class="tabbar_item">
+            <div class="tabbar_icon">
+                <img src="../../icon/icon_main_home_grey1.png">
+                <img src="../../icon/icon_main_home_red1.png">
+            </div>
+            <p>商城首页</p>
+        </a>
+        <a href="../jdshop_category/product_category.html" class="tabbar_item">
+            <div class="tabbar_icon">
+                <img src="../../icon/icon_main_sorts_grey1.png">
+                <img src="../../icon/icon_main_sorts_red1.png">
+            </div>
+            <p>分类</p>
+        </a>
+        <a href="../jdshop_shoppingcart/shoppingcart.html" class="tabbar_item on">
+            <div class="tabbar_icon">
+                <img src="../../icon/icon_main_car_grey1.png">
+                <img src="../../icon/icon_main_car_red1.png">
+            </div>
+            <p>购物车</p>
+        </a>
+        <a href="../jdshop_order/shop_order.html" class="tabbar_item">
+            <div class="tabbar_icon">
+                <img src="../../icon/icon_main_order_grey1.png">
+                <img src="../../icon/icon_main_order_red1.png">
+            </div>
+            <p>商城订单</p>
+        </a>
+    </div>
+</footer>
+
+
+
+
+
+
+<script src="../../js/jdShopMain.js"></script>
+<script>addEventListener('load',function(){
+
+    productAddress = new jfShowPop({
+
+        'ele': 'product_address',
+
+        'scrollClassname':'address'
+
+    })
+
+
+
+
+
+    /*图片懒加载*/
+    jfLazyLoading.lazyLoadInit({
+
+        "bottomDistance":"50"//距离底部的距离，触发事件，单位省略
+    })
+
+    //购物车加减
+    jfProductDetails.volumeChange();
+
+
+
+
+    //点击穿透问题
+    //第一个参数为弹框id 第二个参数为带有滚动条元素的classname
+    jfProductDetails.clickThrough('product_address','address')
+
+
+
+
+
+    //编辑&完成 tab切换
+    jdShoppingCart.editDeleteChange();
+
+    //全选反选
+
+    jdShoppingCart.checkBoxChange();
+
+
+    function deleteList() {
+
+
+        document.getElementById('deleteBtn').addEventListener('click', function () {
+
+
+            jfShowTips.dialogShow({
+
+                'mainText': '友情提示',
+                'minText': '确认要删除这个商品吗？',
+                'checkFn': function () {
+
+                    jfShowTips.dialogRemove();//弹出框消失
+
+                    var listBox = document.getElementById('list_contain').getElementsByClassName('list_contain');
+
+                    for (var i = 0; i < listBox.length; i++) {
+
+                        if (listBox[i].getElementsByClassName('radio')[0].checked) {
+
+                            listBox[i].style.display = 'none';
+
+
+                            if (document.getElementsByClassName('allcheck')[0].checked){
+
+                                document.getElementById('settlementTab').style.display = 'none';
+
+                                document.getElementById('deleteTab').style.display = 'none';
+
+                                document.getElementById('editTabBtn').innerHTML = ''
+                            }
+
+
+
+                        }
+                    }
+                }
+            });
+
+        }, false)
+
+    }
+
+    deleteList();
+
+
+
+
+})
+</script>
+</body>
+
+</html>

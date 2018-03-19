@@ -1,0 +1,48 @@
+
+.jdshop_similar_goods {
+
+  background-color:#fff;
+  width: 100%;
+  box-shadow: 4px 0 2px rgba(0, 0, 0, .1);
+
+  .goods_list {
+    padding: 15px;
+    .main_images {
+      width: 90px;
+      height: 90px;
+      margin: 0 20px 5px 5px;
+      img {
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+      }
+    }
+    .main_details {
+      position: relative;
+      width: calc(~'100% - 90px');
+      .title {
+        color: #4a4a4a;
+        line-height: 18px;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+      }
+
+      .sku_volume_purchased {
+        position: relative;
+        color: #ff4646;
+        padding-top: 30px;
+        .price {
+          font-size: 16px;
+          span {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+  }
+}

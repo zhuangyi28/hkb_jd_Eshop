@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="../../css/jdShopMain.css">
+ 
+    <!--通用媒体查询-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1, maximum-scale=1">
+
+
+
+    <title>嘉福京东购物平台</title>
+</head>
+
+<body>
+
+<!-- 顶部导航 -->
+<nav class="jd_top_bar">
+    <div class="tab_box"></div>
+    <div class="jd_top_contain jdshop_alignment_center">
+        <a class="left" onclick="window.history.go(-1)">
+            <p class="back"><img src="../../images/nav_go_back.png"></p>
+        </a>
+        <div class="content jdshop_alignment_center">
+            编辑收货地址
+        </div>
+        <a class="right">
+        </a>
+    </div>
+</nav>
+
+<div class="add_address_content">
+
+
+    
+<div class="input_form jdshop_alignment_left">
+    <p>姓名</p>
+    <p><input class="jdshop_input" type="text" placeholder="请输入姓名" value="庄中煲"></p>
+</div>
+
+<div class="input_form jdshop_alignment_left">
+    <p>联系电话</p>
+    <p><input class="jdshop_input" type="number" pattern="[0-9]*" placeholder="请输入联系电话" value="15628917729"></p>
+</div>
+
+<div class="input_form jdshop_alignment_left">
+    <p>所在地区</p>
+    <p class="jdshop_alignment_center" onclick="productAddress.show({fn:
+
+function(){
+
+     addressChoose.run({
+     yourUrl:'http://jd-test.jia-fu.cn',
+     type: 'get',
+     targetDom:document.getElementById('address_show'),
+     fn:function() {
+       productAddress.hide()
+       console.log(addressChoose.addressCity)
+     }
+
+     })
+}
+
+})">
+        <span id="address_show">上海，徐汇区，城区</span>
+        <span><img src="../../images/product_go.png"></span>
+    </p>
+</div>
+
+<div class="input_form jdshop_alignment_left">
+    <p>详细地址</p>
+    <p><textarea class="jdshop_textarea" placeholder="请输入详细地址" rows="4">上海市徐汇区虹桥路808号加华商务中心D5栋三楼嘉福弹性福利平台</textarea></p>
+</div>
+
+
+
+
+</div>
+
+<div class="address_dialog">
+    
+
+<div class="jf_pop_up" id="product_address">
+
+    <div class="jf_pop_up_main">
+
+        <div class="pop_top">
+
+            <div class="pop_title">请选择地址</div>
+
+            <div class="pop_cancel"></div>
+
+<!--            <div class="pop_line"></div>-->
+
+
+        </div>
+
+        <div class="pop_main">
+
+            <div class="product_prompt_address">
+
+                <div id="jd_address_select">
+
+                    <div class="top_address jdshop_alignment_middle">
+
+                        <div>请选择</div>
+
+                        <div></div>
+
+                        <div></div>
+
+                        <div></div>
+
+                        <div></div>
+
+                    </div>
+
+                    <div class="address"></div>
+
+                    <div class="address"></div>
+
+                    <div class="address"></div>
+
+                    <div class="address"></div>
+
+                    <div class="address"></div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="jf_pop_up_bg">
+
+    </div>
+
+</div>
+
+
+
+</div>
+<!-- 底部按钮-->
+
+<div class="bottom_button">
+    <div class="tab_box"></div>
+    <a class="button_contain" href="javascript:">
+        保存
+    </a>
+
+</div>
+
+
+<script src="../../js/jdShopMain.js"></script>
+<script>addEventListener('load',function(){
+
+    productAddress = new jfShowPop({'ele': 'product_address'})
+
+
+
+
+    //点击穿透问题
+    //第一个参数为弹框id 第二个参数为带有滚动条元素的classname
+    jfProductDetails.clickThrough('product_address','address')
+
+
+})
+</script>
+</body>
+
+</html>
