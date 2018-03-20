@@ -1,0 +1,33 @@
+<!--切换tab-->
+<div class="similar_details_nav">
+
+    <div class="similar_nav_content">
+
+        <div class="tab choose_tab">综合排序</div>
+
+        <div class="tab">价格优惠</div>
+
+        <div class="tab">热销优先</div>
+
+    </div>
+
+    <div class="similar_tab_box"></div>
+
+</div>
+
+
+<script>
+
+    //粘性布局
+
+    jfProductDetails.slidePositionSimilarTab();
+
+
+    //选择
+    document.getElementsByClassName('similar_nav_content')[0].addEventListener('click',similarList.chooseTabSimilar,false)
+
+
+
+
+
+</script>

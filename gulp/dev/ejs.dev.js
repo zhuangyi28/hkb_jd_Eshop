@@ -35,7 +35,7 @@ function devEjs() {
 
                     var addHtml = "";
 
-                    addHtml += "<link rel='stylesheet'  href='../../css/hkbJdShop.css'/>\n ";//框架
+                    addHtml += "<link rel='stylesheet'  href='../../css/jdShopMain.css'/>\n ";//框架
 
 
                     $('head').prepend(addHtml);
@@ -55,7 +55,7 @@ function devEjs() {
 
             var addJSHtml = '';//保存引用的业务脚本
 
-            var addJsRun = "<script src='../../js/hkbJdShop.js'></script>\n";//运行的脚本
+            var addJsRun = "<script src='../../js/jdShopMain.js'></script>\n";//运行的脚本
 
             var addJs="<script>addEventListener('load',function()\{";
 
@@ -71,7 +71,7 @@ function devEjs() {
 
                     if(thisAttr.indexOf('hkbJdShop.min.js')>-1){
 
-                        thisAttr=thisAttr.replace('hkbJdShop.min.js','hkbJdShop.js')
+                        thisAttr=thisAttr.replace('jdShopMain.min.js','jdShopMain.js')
 
                     }
 

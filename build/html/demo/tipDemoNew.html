@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="../../css/jdShopMain.css">
+ 
+    <!--通用媒体查询-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1, maximum-scale=1">
+
+
+
+    <title>嘉福京东购物平台</title>
+</head>
+<body>
+<!-- 顶部搜索导航 -->
+<style>
+    button {
+
+        width: 100%;
+        height: 50px;
+        display: block;
+        margin: 10px 0;
+    }
+
+</style>
+
+<div id="showLog" style="position: fixed;left: 0;top: 100px;background: black;color: white;z-index: 9999999">111</div>
+
+<button onclick="test1.show()" style="position: fixed;top: 0;left: 0;z-index: 111">点我</button>
+
+
+<div class="search_results_list">
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_4.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">雅萌(YA-MAN) 美容器 LED导入导出射频美容仪清洁毛孔洁面仪 yaman HRF-11</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>95%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy out_of_stock为无库存样式-->
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_3.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">kindle Paperwhite 全新升级版6英寸护眼非反光电子墨水触控显示屏 wifi 电子书阅读器 黑色</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>100%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">小米(MI)Air 13.3英寸全金属超轻薄笔记本电脑(i5-6200U 8G 256G PCIE固态硬盘 940MX独显 FHD WIN10)银</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_5.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">科沃斯（Ecovacs）地宝魔钻(BFD-wwt) 扫地机器人家用吸尘器全自动智能拖地机</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>97%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_4.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_3.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">kindle Paperwhite 全新升级版6英寸护眼非反光电子墨水触控显示屏 wifi 电子书阅读器 黑色</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>100%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">小米(MI)Air 13.3英寸全金属超轻薄笔记本电脑(i5-6200U 8G 256G PCIE固态硬盘 940MX独显 FHD WIN10)银</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_5.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">科沃斯（Ecovacs）地宝魔钻(BFD-wwt) 扫地机器人家用吸尘器全自动智能拖地机</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>97%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_4.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="search_results_list">
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_4.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">雅萌(YA-MAN) 美容器 LED导入导出射频美容仪清洁毛孔洁面仪 yaman HRF-11</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>95%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy out_of_stock为无库存样式-->
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_3.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">kindle Paperwhite 全新升级版6英寸护眼非反光电子墨水触控显示屏 wifi 电子书阅读器 黑色</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>100%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">小米(MI)Air 13.3英寸全金属超轻薄笔记本电脑(i5-6200U 8G 256G PCIE固态硬盘 940MX独显 FHD WIN10)银</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_5.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">科沃斯（Ecovacs）地宝魔钻(BFD-wwt) 扫地机器人家用吸尘器全自动智能拖地机</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>97%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_4.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_3.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">kindle Paperwhite 全新升级版6英寸护眼非反光电子墨水触控显示屏 wifi 电子书阅读器 黑色</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>100%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">小米(MI)Air 13.3英寸全金属超轻薄笔记本电脑(i5-6200U 8G 256G PCIE固态硬盘 940MX独显 FHD WIN10)银</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_5.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">科沃斯（Ecovacs）地宝魔钻(BFD-wwt) 扫地机器人家用吸尘器全自动智能拖地机</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>97%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_4.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<button onclick="test1.show()">点我</button>
+
+
+<div class="search_results_list">
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_4.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">雅萌(YA-MAN) 美容器 LED导入导出射频美容仪清洁毛孔洁面仪 yaman HRF-11</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>95%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy out_of_stock为无库存样式-->
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_3.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">kindle Paperwhite 全新升级版6英寸护眼非反光电子墨水触控显示屏 wifi 电子书阅读器 黑色</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>100%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">小米(MI)Air 13.3英寸全金属超轻薄笔记本电脑(i5-6200U 8G 256G PCIE固态硬盘 940MX独显 FHD WIN10)银</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_5.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">科沃斯（Ecovacs）地宝魔钻(BFD-wwt) 扫地机器人家用吸尘器全自动智能拖地机</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>97%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_4.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_3.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">kindle Paperwhite 全新升级版6英寸护眼非反光电子墨水触控显示屏 wifi 电子书阅读器 黑色</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>100%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">小米(MI)Air 13.3英寸全金属超轻薄笔记本电脑(i5-6200U 8G 256G PCIE固态硬盘 940MX独显 FHD WIN10)银</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_5.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">科沃斯（Ecovacs）地宝魔钻(BFD-wwt) 扫地机器人家用吸尘器全自动智能拖地机</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>97%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_4.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="search_results_list">
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_4.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">雅萌(YA-MAN) 美容器 LED导入导出射频美容仪清洁毛孔洁面仪 yaman HRF-11</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>95%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy out_of_stock为无库存样式-->
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_3.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">kindle Paperwhite 全新升级版6英寸护眼非反光电子墨水触控显示屏 wifi 电子书阅读器 黑色</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>100%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">小米(MI)Air 13.3英寸全金属超轻薄笔记本电脑(i5-6200U 8G 256G PCIE固态硬盘 940MX独显 FHD WIN10)银</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_5.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">科沃斯（Ecovacs）地宝魔钻(BFD-wwt) 扫地机器人家用吸尘器全自动智能拖地机</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>97%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_4.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_3.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">kindle Paperwhite 全新升级版6英寸护眼非反光电子墨水触控显示屏 wifi 电子书阅读器 黑色</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>100%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">小米(MI)Air 13.3英寸全金属超轻薄笔记本电脑(i5-6200U 8G 256G PCIE固态硬盘 940MX独显 FHD WIN10)银</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list out_of_stock jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_5.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">科沃斯（Ecovacs）地宝魔钻(BFD-wwt) 扫地机器人家用吸尘器全自动智能拖地机</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>97%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_4.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_2.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+    <!-- list copy-->
+    <div class="goods_list jdshop_alignment_top">
+        <div class="main_images">
+            <img data-src="../../images/product_list_1.jpg" src="../../images/img_loading.gif" class="loading_img">
+        </div>
+        <div class="main_details">
+            <div class="title">【6期免息】【赠备用数据线】Apple iPhone 7 4.7英寸苹果7 苹果手机 全网 红色特别版 全网通 (128G)</div>
+            <div class="sku_volume_purchased jdshop_alignment_center">
+                <div class="price font_red"><span>￥</span>6399.00</div>
+                <div class="font_middle_gary"><span>好评：</span>99.99%</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<button onclick="test1.show()">点我</button>
+
+
+<!-- 弹出框-->
+
+
+
+
+<div class="jf_pop_up" id="test5">
+
+    <div class="jf_pop_up_main">
+
+        <div class="pop_top">
+
+            <div class="pop_title">请选择1</div>
+
+            <div class="pop_cancel"></div>
+
+            <div class="pop_line"></div>
+
+        </div>
+
+        <div class="pop_main" style="max-height:300px;overflow-y: scroll">
+
+            <p>1111111111</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>11</p>
+            <p>22222222</p>
+
+
+        </div>
+
+    </div>
+
+    <div class="jf_pop_up_bg">
+
+    </div>
+
+</div>
+
+
+
+
+<script src="../../js/jdShopMain.js"></script>
+<script>addEventListener('load',function(){
+
+    /*图片懒加载*/
+    jfLazyLoading.lazyLoadInit({
+
+        "bottomDistance":"50"//距离底部的距离，触发事件，单位省略
+    })
+
+
+
+
+    /*图片懒加载*/
+    jfLazyLoading.lazyLoadInit({
+
+        "bottomDistance":"50"//距离底部的距离，触发事件，单位省略
+    })
+
+
+
+
+    /*图片懒加载*/
+    jfLazyLoading.lazyLoadInit({
+
+        "bottomDistance":"50"//距离底部的距离，触发事件，单位省略
+    })
+
+
+
+
+    /*图片懒加载*/
+    jfLazyLoading.lazyLoadInit({
+
+        "bottomDistance":"50"//距离底部的距离，触发事件，单位省略
+    })
+
+
+
+
+    test1 = new jfShowPop({
+        'ele': 'test5'//弹出框的id
+    })
+
+
+
+    clickThrough('pop_main')
+
+
+    function clickThrough(hasScrollEle) {
+
+
+        var thisScrollEle = document.getElementsByClassName(hasScrollEle)[0];
+
+        var thisTop = document.getElementsByClassName('pop_top')[0]
+
+        var startY, endY, distance;//开始距离、移动距离
+
+        thisScrollEle.addEventListener('touchstart', touchStartEle, false);
+
+        thisScrollEle.addEventListener('touchmove', reachEdge, false);
+
+        thisTop.addEventListener('touchmove', windowBanEvent.Canceling,false);
+        //thisScrollEle.addEventListener('touchmove', reachEdge, false);
+
+
+        function touchStartEle(e) {
+
+            //touchstart 获取位置startY
+
+            startY = e.touches[0].pageY;
+
+        }
+
+
+        function reachEdge(event) {
+
+            var _this = this;
+
+            var eleScrollHeight = _this.scrollTop;//获取滚动条的位置 206
+
+            var eleHeight = _this.scrollHeight;//元素实际高度 506
+
+            var containerHeight = _this.offsetHeight;//容器高度 300
+
+
+
+            //touchmove 获取位置 endY
+
+            endY = event.touches[0].pageY;
+
+            //两者之减的距离用来判断是向上活动还是向下滑动
+            distance = startY - endY;
+
+            //此时touchmove的值等于touchstart的值 循环
+            endY = startY;
+
+
+            //滚动条到达底部
+
+            if (Math.abs(parseFloat(eleHeight) - parseFloat(eleScrollHeight + containerHeight)) <= 2) {
+
+
+                //如果距离为正数 则向上滑动是 禁止浏览器事件
+
+                if (distance > 0) {
+
+                    event.preventDefault();
+
+
+                }
+
+
+            }
+
+            else if (Math.abs(parseFloat(eleScrollHeight)) == 0) {
+
+                //如果距离为负数 则向下滑动
+
+                if (distance < 0) {
+
+                    event.preventDefault();
+
+                }
+
+
+            }
+
+        }
+
+
+    }
+
+
+
+
+
+})
+</script>
+</body>
+
+
+</html>

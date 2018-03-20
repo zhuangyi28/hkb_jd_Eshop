@@ -1,0 +1,77 @@
+<!--商品tab-->
+<div class="watch_list_meal">
+
+    <div class="tab_box"></div>
+
+    <div class="watch_tab_contain">
+
+        <div class="tab choose_tab">默认</div>
+
+        <div class="tab">仅看有货</div>
+
+        <div class="brand">分类<div class="arrow">▼</div>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+
+    //分类选择下拉方法
+    watchBrand = new jfDropDown({
+
+        'ele': 'watch_brand_list',//id选择器
+
+        'scrollClassname':'watch_brand_list'//带有滚动条元素的classname
+    })
+
+    //选择tab
+    similarList.chooseListTab();
+
+    //分类点击
+    similarList.brandDialog();
+
+    //点击tab
+
+//    document.getElementsByClassName('watch_tab_contain')[0].addEventListener('click',function (e) {
+//
+//
+//        e = e? e: window.event
+//
+//
+//
+//        if(e.target!=this) {
+//
+//            if(document.getElementById('followGoods').innerHTML.indexOf('取消')>-1){
+//
+//                for(var i=0;i<allcheckBox.length;i++){
+//
+//                    allMessageList[i].className="followcheck";
+//
+//                }
+//
+//
+//                document.getElementsByClassName('tab_content')[0].style.transform="translate3d(0,100%,0)";
+//
+//                document.getElementById('followGoods').innerHTML = '编辑';
+//            }
+//
+//
+//
+//
+//
+//        }
+//
+//
+//    },false)
+
+
+
+
+
+
+
+</script>
+

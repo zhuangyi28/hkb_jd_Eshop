@@ -1,0 +1,47 @@
+
+<!-- 弹框 -->
+<div class="jd_drop_down" id="watch_brand_list">
+    <div class="jd_drop_down_content">
+        <div class="watch_brand_list">
+            <div>全部商品</div>
+            <div>大类名称1</div>
+            <div>大类名称2</div>
+            <div>大类名称3</div>
+            <div>大类名称4</div>
+            <div>大类名称5</div>
+            <div>大类名称6</div>
+            <div>大类名称7</div>
+            <div>大类名称8</div>
+            <div>大类名称9</div>
+            <div>大类名称10</div>
+        </div>
+        <div class="operation_btn">
+            <div class="brand_reset" onclick="similarList.listResetAll();">重置</div>
+            <div class="ensure">确定</div>
+        </div>
+    </div>
+    <div class="jd_drop_down_bg"></div>
+</div>
+
+<script>
+
+
+    //选择分类
+    document.getElementsByClassName('watch_brand_list')[0].addEventListener('click', similarList.chooseSort, false);
+    
+    
+    //
+
+    document.getElementsByClassName('ensure')[0].addEventListener('click',function () {
+
+        var listEle = document.getElementById('watch_brand_list').getElementsByClassName('watch_brand_list')[0];
+
+        if(listEle.getElementsByClassName('selected')[0]){
+
+            console.log('变回')
+        }
+        watchBrand.hide();
+    })
+
+
+</script>

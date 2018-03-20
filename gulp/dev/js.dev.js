@@ -20,7 +20,7 @@ function devJs() {
 
     gulp.src(['src/js/*.js',  'src/component/**/*.js']) //该任务针对的文件7
 
-        .pipe(concat('jf_gift.js'))
+        .pipe(concat('jdShopMain.js'))
 
         .pipe(gulp.dest('build/js'))
 
@@ -55,9 +55,9 @@ function devJs() {
 
         .pipe(gulp.dest('build/api'))
 
-        .pipe(browserSync.stream());
+        .pipe(browserSync.stream())
 
-        //.pipe(connect.reload());
+        .pipe(connect.reload());
 
 }
 

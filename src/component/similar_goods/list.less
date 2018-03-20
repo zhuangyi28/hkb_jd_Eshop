@@ -1,0 +1,156 @@
+
+.similar_goods_list{
+
+  margin: 10px;
+  overflow-y: auto;
+
+  a.product {
+
+    display: inline-block;
+    width: 49%;
+    float: left;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 5px;
+    box-sizing: border-box;
+    padding: 0 8px 10px 8px;
+    box-shadow: 1px 2px 2px #E9E9E9;
+    margin-bottom: 3px;
+
+    &:active{
+      opacity: .8;
+      background-color: #e4e4e4;
+    }
+
+    .product_main_img {
+      position: relative;
+      width: 100%;
+      height: 120px;
+      height: calc(~'100vw / 386 * 120');
+      margin: 0 auto;
+      box-sizing: border-box;
+      padding: 5px;
+
+      img{
+        display: block;
+        height: 90%;
+        margin: 6px auto;
+      }
+    }
+    .product_main_title {
+      position: relative;
+      font-size: 14px;
+      height: 38px;
+      line-height: 20px;
+      box-sizing: border-box;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      color: #4a4a4a;
+      margin-bottom: 8px;
+
+    }
+
+
+
+    .product_add_cart{
+
+     span.gift_number {
+      color: #ff4646;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+
+      .icon_add_cart{
+
+
+        img{
+
+        display: block;
+        width: 28px;
+        right: 0;
+        }
+      }
+
+      &:active{
+           opacity: .6;
+           //background-color: #e4e4e4;
+         }
+
+    }
+
+
+
+
+
+    &:nth-child(2n){
+      margin-left: 3px;
+    }
+    &:nth-child(2n+1){
+      margin-right: 3px;
+    }
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+  }
+
+}
+
+
+
+
+
+
+
+.list_bottom_text{
+
+  color: #8a8a8a;
+  font-size: 14px;
+  text-align: center;
+
+
+}
+
+a.to_cart_box{
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: #ffffff;
+  color: #4a4a4a;
+  z-index: 399;
+
+
+
+  p.mine_cart_number{
+    right: 6px;
+    top: 0px;
+    background-color: #ff0200;
+    position: absolute;
+    padding: 0 6px;
+    border-radius: 50px;
+    color: #FFF;
+    z-index: 20;
+    font-size: 10px;
+    vertical-align: sub;
+
+  }
+
+
+  img{
+    width: 30px;
+    height: 30px;
+    margin:12px;
+
+  }
+
+}

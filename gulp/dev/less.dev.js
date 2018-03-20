@@ -61,7 +61,7 @@ function devLess() {
             remove: true //是否去掉不必要的前缀 默认：true
         }))
 
-        .pipe(concat('jf_gift.css'))  // 合并匹配到的css文件
+        .pipe(concat('jdShopMain.css'))  // 合并匹配到的css文件
 
         //.pipe(minifyCss()) //压缩css
 
