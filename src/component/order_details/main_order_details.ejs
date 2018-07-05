@@ -51,9 +51,9 @@
 <footer class="order_details_tabbar">
     <div class="tab_box"></div>
     <div class="order_tabbar_contain jdshop_alignment_right">
-        <a class="jdshop_btn_mini btn_lightgray_border" onclick="orderCancel.show();">取消订单</a>
+        <!--<a class="jdshop_btn_mini btn_lightgray_border" onclick="orderCancel.show();">取消订单</a>-->
         <a class="jdshop_btn_mini btn_gray_border" href="../jdshop_status/status.html">物流信息</a>
-        <a class="jdshop_btn_mini btn_red_border" id="view_order">查看京东单号</a>
+        <a class="jdshop_btn_mini btn_red_border">申请售后</a>
     </div>
 </footer>
 
@@ -105,24 +105,12 @@
                         </p>
                     </div>
                 </div>
-                <p class="text">本平台上所售京东实物商品享有京东商城上保修政策，如需售后可拨打京东商城客服电话。</p>
-                <p class="text">您可直接联系京东售后客服，告知京东商城上的订单号，即可处理售后问题，京东客服处理订单，如有退款，则在第二个工作日于本平台操作退款。</p>
             </div>
-            <div class="dialog_button">
-                <a class="dialog_cancel font_white orange" href="tel:4006066866"><img src="../../images/order_details_2_phone.png">拨打电话</a>
-                <a class="dialog_check red" href="../jdshop_customer_service/customer_service.html"><img src="../../images/order_details_3_order.png">查看售后流程</a>
+            <div class="dialog_button" >
+                <a class="dialog_check red" id="iKownBtn">我知道了</a>
             </div>
         </div>
     </div>
 </div>
 
-
-<script>
-
-    //模态框
-    jfOrderTips.orderDetailsDialog();
-
-
-
-</script>
 

@@ -2,226 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a17d9338-6fcf-49d5-9be2-ba874f34c15a" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/add_to_cart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/address.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/all_orders.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/collection.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/common_problems.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/coupons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/goods.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_car_grey1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_car_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_car_red1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_home_grey1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_home_jiafu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_home_jiafu1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_home_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_home_red1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_order_grey1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_order_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_order_red1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_personal_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_personal_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_sorts_grey1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_sorts_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_main_sorts_red1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/payment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/personal_center_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/personal_center_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/return_after.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/search_bar_glass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner1-pink-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner1-pink-goods.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner2-green-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner2-green-goods.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner3-yellew-see.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner3-yellow-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner3-yellow-goods.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner4-flesh-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner4-flesh-goods.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner5-deongaree-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner5-deongaree-goods.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner6-mintgreen-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner6-mintgreen-goods.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner7-purple-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner7-purple-goods.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_blue_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_blue_sticker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_blue_theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_cyan_background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_cyan_theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_green_background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_green_sticker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_green_theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_peony_background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_peony_theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_pink_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_pink_circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_pink_paster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_pink_sticker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_pink_theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_pink_tub.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_purple_background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_purple_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_purple_sticker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_purple_theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_red_background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_red_theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_white_background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/banner_white_theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/head_portrait.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_pro_bg9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/icon_view_more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/the_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/add_to_cart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/address.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/all_orders.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/collection.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/common_problems.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/coupons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/goods.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/icon_main_car_grey1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/icon_main_car_red1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/icon_main_home_grey1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/icon_main_home_jiafu1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/icon_main_home_red1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/icon_main_order_grey1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/icon_main_order_red1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/icon_main_personal_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/icon_main_personal_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/icon_main_sorts_grey1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/icon_main_sorts_red1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/payment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/personal_center_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/personal_center_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/return_after.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/head_portrait.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_pro_bg9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/icon_view_more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/the_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/ZHUANGYI.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/common_problem/problem.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/common_problem/problem.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/homepage/main_4_ProductList.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/homepage/main_4_ProductList.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/mine/all_order.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/mine/all_order.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/mine/information.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/mine/information.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/mine/list.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/mine/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/similar_goods/goods.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/similar_goods/goods.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/similar_goods/list.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/similar_goods/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/similar_goods/nav.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/similar_goods/tab.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/similar_goods/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/similar_goods/tab.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/watch_list/dropdown.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/watch_list/dropdown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/watch_list/focus_list_empty.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/watch_list/focus_list_empty.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/watch_list/footer.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/watch_list/footer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/watch_list/list.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/watch_list/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/watch_list/nav.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/watch_list/tab.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/watch_list/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/watch_list/tab.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/jdshop_mine/common_problem.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/jdshop_mine/mine.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/jdshop_watch_list/focus_list_empty.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/jdshop_watch_list/similar_goods.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/jdshop_watch_list/watch_list.ejs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/component/homepage/main_4_followGoods.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/component/homepage/main_4_followGoods.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/component/homepage/main_5_productList.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/component/homepage/main_5_productList.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/component/homepage/main_6_seckill.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/component/homepage/main_6_seckill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/component/homepage/main_6_seckill.less" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/icon/icon_main_car_red.png" afterPath="$PROJECT_DIR$/src/icon/icon_main_car_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/icon/icon_main_home_jiafu.png" afterPath="$PROJECT_DIR$/src/icon/icon_main_home_jiafu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/icon/icon_main_home_red.png" afterPath="$PROJECT_DIR$/src/icon/icon_main_home_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/icon/icon_main_order_red.png" afterPath="$PROJECT_DIR$/src/icon/icon_main_order_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/icon/icon_main_sorts_red.png" afterPath="$PROJECT_DIR$/src/icon/icon_main_sorts_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/icon/search_bar_glass.png" afterPath="$PROJECT_DIR$/src/icon/search_bar_glass.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/dev/ejs.dev.js" afterPath="$PROJECT_DIR$/gulp/dev/ejs.dev.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/dev/js.dev.js" afterPath="$PROJECT_DIR$/gulp/dev/js.dev.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/dev/less.dev.js" afterPath="$PROJECT_DIR$/gulp/dev/less.dev.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/common/bottomTabBar.ejs" afterPath="$PROJECT_DIR$/src/component/common/bottomTabBar.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/common/bottomTabBar.less" afterPath="$PROJECT_DIR$/src/component/common/bottomTabBar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/homepage/main_1_topSearchNav.ejs" afterPath="$PROJECT_DIR$/src/component/homepage/main_1_topSearchNav.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/homepage/main_1_topSearchNav.less" afterPath="$PROJECT_DIR$/src/component/homepage/main_1_topSearchNav.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/homepage/main_2_slideBanner.ejs" afterPath="$PROJECT_DIR$/src/component/homepage/main_2_slideBanner.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/homepage/productlist_load.js" afterPath="$PROJECT_DIR$/src/component/homepage/productlist_load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/product_category/main_product_category.ejs" afterPath="$PROJECT_DIR$/src/component/product_category/main_product_category.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/shop_order/main_shop_order.ejs" afterPath="$PROJECT_DIR$/src/component/shop_order/main_shop_order.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/shoppingcart/main_shoppingcart.ejs" afterPath="$PROJECT_DIR$/src/component/shoppingcart/main_shoppingcart.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/jdshop_homepage/main.ejs" afterPath="$PROJECT_DIR$/src/view/jdshop_homepage/main.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_already_collection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/icon/icon_collection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/order_details_4_help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/order_details_5_phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icon/icon_already_collection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icon/icon_collection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/order_details_4_help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/order_details_5_phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/icon_already_collection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon/icon_collection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/order_details_4_help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/order_details_5_phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/jdShopMain.css" afterPath="$PROJECT_DIR$/build/css/jdShopMain.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/jdshop_order/shop_order_details.html" afterPath="$PROJECT_DIR$/build/html/jdshop_order/shop_order_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/jdshop_product/product.html" afterPath="$PROJECT_DIR$/build/html/jdshop_product/product.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/jdShopMain.js" afterPath="$PROJECT_DIR$/build/js/jdShopMain.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/jdShopMain.min.css" afterPath="$PROJECT_DIR$/dist/css/jdShopMain.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/jdshop_order/shop_order_details.html" afterPath="$PROJECT_DIR$/dist/html/jdshop_order/shop_order_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/jdshop_product/product.html" afterPath="$PROJECT_DIR$/dist/html/jdshop_product/product.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/jdShopMain.min.js" afterPath="$PROJECT_DIR$/dist/js/jdShopMain.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/order_details/main_order_details.ejs" afterPath="$PROJECT_DIR$/src/component/order_details/main_order_details.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/order_details/main_order_details.js" afterPath="$PROJECT_DIR$/src/component/order_details/main_order_details.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/order_details/order_details_service/order_details_1_total.ejs" afterPath="$PROJECT_DIR$/src/component/order_details/order_details_service/order_details_1_total.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/order_details/order_details_service/order_details_4_phone.ejs" afterPath="$PROJECT_DIR$/src/component/order_details/order_details_service/order_details_4_phone.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/order_details/order_details_service/order_details_4_phone.less" afterPath="$PROJECT_DIR$/src/component/order_details/order_details_service/order_details_4_phone.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/product/main_product.ejs" afterPath="$PROJECT_DIR$/src/component/product/main_product.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/product/main_product.less" afterPath="$PROJECT_DIR$/src/component/product/main_product.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/product/product_images/product_images_1_nav.js" afterPath="$PROJECT_DIR$/src/component/product/product_images/product_images_1_nav.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -238,16 +47,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.68416166">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="js.dist.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gulp/dist/js.dist.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="bottomTabBar.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/component/common/bottomTabBar.ejs">
               <provider selected="true" editor-type-id="text-editor">
@@ -278,36 +77,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main_3_noticeBoard.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/component/homepage/main_3_noticeBoard.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main_3_noticeBoard.ejs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/component/homepage/main_3_noticeBoard.ejs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main_4_ProductList.ejs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/component/homepage/main_4_ProductList.ejs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="main.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/view/jdshop_homepage/main.ejs">
               <provider selected="true" editor-type-id="text-editor">
@@ -321,18 +90,59 @@
           <file leaf-file-name="main_1_topSearchNav.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/component/homepage/main_1_topSearchNav.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="115">
+                  <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main_2_slideBanner.ejs" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main_product.ejs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/component/product/main_product.ejs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1058">
+                  <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="47" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="product_images_1_nav.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/component/product/product_images/product_images_1_nav.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="267">
+                  <caret line="448" column="0" lean-forward="false" selection-start-line="448" selection-start-column="0" selection-end-line="448" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#!!block;n#slidePositionTab#0;n#slidePositionTab#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#clickTabChange#0;n#clickTabChange#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#skuBoxChange#0;n#skuBoxChange#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#tabScrollChange#0;n#tabScrollChange#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#scrollEle#0;n#scrollEle#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#changeHideBtn#0;n#changeHideBtn#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#volumeChange#0;n#volumeChange#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#accSrcollToTop#0;n#accSrcollToTop#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#likeGoods#0;n#likeGoods#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#slidePositionSimilarTab#0;n#slidePositionSimilarTab#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="order_details_2_address.ejs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/component/order_details/order_details_imf/order_details_2_address.ejs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="115">
+                  <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main_2_slideBanner.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/component/homepage/main_2_slideBanner.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="40">
-                  <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+                <state relative-caret-position="3289">
+                  <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -389,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/component/homepage/main_1_topSearchNav.less" />
         <option value="$PROJECT_DIR$/src/component/common/bottomTabBar.ejs" />
         <option value="$PROJECT_DIR$/src/component/homepage/main_2_slideBanner.ejs" />
+        <option value="$PROJECT_DIR$/src/component/product/product_images/product_images_1_nav.js" />
       </list>
     </option>
   </component>
@@ -486,6 +297,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -508,7 +320,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -522,17 +334,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="icon" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -540,17 +351,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.其他文件类型" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project-jd-shop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="C:\Users\ZhuangYi\AppData\Roaming\npm\node_modules\gulp" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp\www\GitHub\hkb_jd_Eshop\src\component\homepage" />
-      <recent name="D:\wamp\www\GitHub\hkb_jd_Eshop\src\images" />
       <recent name="D:\wamp\www\GitHub\hkb_jd_Eshop\build\images" />
-      <recent name="D:\wamp\www\GitHub\hkb_jd_Eshop\src\icon" />
-      <recent name="D:\wamp\www\GitHub\hkb_jd_Eshop\build\icon" />
+      <recent name="D:\wamp\www\GitHub\hkb_jd_Eshop\src\images" />
+      <recent name="D:\wamp\www\GitHub\hkb_jd_Eshop\dist\images" />
+      <recent name="D:\wamp\www\GitHub\hkb_jd_Eshop\src\component" />
+      <recent name="D:\wamp\www\GitHub\hkb_jd_Eshop\src\component\homepage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -660,8 +471,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Gulp.js..myServer" />
-        <item index="1" class="java.lang.String" itemvalue="Gulp.js..dist" />
+        <item index="0" class="java.lang.String" itemvalue="Gulp.js..dist" />
+        <item index="1" class="java.lang.String" itemvalue="Gulp.js..myServer" />
       </list>
     </recent_temporary>
   </component>
@@ -678,24 +489,26 @@
       <workItem from="1521167505965" duration="5990000" />
       <workItem from="1521425307462" duration="5524000" />
       <workItem from="1521431699346" duration="165000" />
+      <workItem from="1521451310122" duration="1166000" />
+      <workItem from="1521533434025" duration="1272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11679000" />
+    <option name="totallyTimeSpent" value="14392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="0" />
     <layout>
-      <window_info id="Gulp" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15169425" sideWeight="0.33463338" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15169425" sideWeight="0.6653666" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15169425" sideWeight="0.3424337" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15169425" sideWeight="0.6575663" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13416536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13416536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -719,56 +532,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/component/homepage/main_2_slideBanner.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3197">
-          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/common/bottomTabBar.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="e#48#144#0" expanded="false" />
-            <element signature="e#354#516#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/mine/list.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/dist/html.dist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/homepage/main_1_topSearchNav.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/common/bottomTabBar.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/shop_order/main_shop_order.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1518">
@@ -997,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,16 +820,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/homepage/main_1_topSearchNav.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="115">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/homepage/main_2_slideBanner.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+        <state relative-caret-position="3289">
+          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/product/main_product.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/product/product_pop_up.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/product/main_product.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/product/product_images/product_images_1_nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="448" column="0" lean-forward="false" selection-start-line="448" selection-start-column="0" selection-end-line="448" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#slidePositionTab#0;n#slidePositionTab#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#clickTabChange#0;n#clickTabChange#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#skuBoxChange#0;n#skuBoxChange#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#tabScrollChange#0;n#tabScrollChange#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#scrollEle#0;n#scrollEle#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#changeHideBtn#0;n#changeHideBtn#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#volumeChange#0;n#volumeChange#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#accSrcollToTop#0;n#accSrcollToTop#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#likeGoods#0;n#likeGoods#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#slidePositionSimilarTab#0;n#slidePositionSimilarTab#0;n#!!block;n#jfProductDetails#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/html/jdshop_purchasing_process/order_confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-644">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/order_details/order_details_imf/order_details_2_address.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding />
         </state>
       </provider>
