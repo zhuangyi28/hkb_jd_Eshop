@@ -19,6 +19,8 @@ var jfOrderTips = {
 
         document.getElementsByClassName('cancel')[0].addEventListener('click', bgRemove, false);
 
+        document.getElementById('iKownBtn').addEventListener('click', bgRemove, false);
+
         function bgRemove() {
 
             var orderDialog = document.getElementsByClassName('order_dialog');

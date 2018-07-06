@@ -218,7 +218,17 @@
         <p class="font_red">￥123,678,000.00</p>
     </div>
     <div class="text_list jdshop_alignment_center">
-        <p>订单运费：</p>
+        <p onclick="jfShowTips.dialogShow({
+
+       'mainText':'配送服务收费标准',
+       'minText':'订单金额＜49元，收取基础运费15元，不收续重运费；49元≤订单金额＜99元，收取基础运费6元，不收续重运费；订单金额≥99元，免基础运费，不收续重运费。',
+       'noCancel':true,
+       'checkBtnText':'我知道了',
+       'checkFn':function() {
+         jfShowTips.dialogRemove()
+       }
+
+        })">订单运费：<span class="order_help"><img src="../../images/order_details_4_help.png"></span></p>
         <p class="font_red">￥24.00</p>
     </div>
     <div class="text_list jdshop_alignment_center">
@@ -231,6 +241,7 @@
         <p class="font_red">￥121224.00</p>
     </div>
 </div>
+
 
     <div class="order_confirm_distribution jdshop_shadow">
     <div class="text_list jdshop_alignment_center">
@@ -252,12 +263,16 @@
 
     <div class="order_details_phone jdshop_shadow">
     <div class="text_list">
-        <p><a href="tel:010-67891234">嘉福平台客服电话：400-821-6990</a></p>
-        <p class="time">（周一至周五9:00-18:00）</p>
-        <p><a href="tel:400-606-6666">京东售后客服电话：400-606-6866</a></p>
-        <p>京东家电安装电话：400-656-1000</p>
+        <p>京东订单号:1701020000001123，被拆单<span id="view_order">查看子单号</span></p>
+        <p><a href="tel:400-606-6666">京东售后客服电话<img src="../../images/order_details_5_phone.png"></a></p>
+        <p><a href="tel:400-656-1000">京东家电安装电话<img src="../../images/order_details_5_phone.png"></a></p>
+        <p><a href="tel:010-67891234">嘉福平台客服电话（周一至周五9:00-18:00）<img src="../../images/order_details_5_phone.png"></a></p>
     </div>
 </div>
+
+
+
+
 
 </div>
 
@@ -295,9 +310,9 @@
 <footer class="order_details_tabbar">
     <div class="tab_box"></div>
     <div class="order_tabbar_contain jdshop_alignment_right">
-        <a class="jdshop_btn_mini btn_lightgray_border" onclick="orderCancel.show();">取消订单</a>
+        <!--<a class="jdshop_btn_mini btn_lightgray_border" onclick="orderCancel.show();">取消订单</a>-->
         <a class="jdshop_btn_mini btn_gray_border" href="../jdshop_status/status.html">物流信息</a>
-        <a class="jdshop_btn_mini btn_red_border" id="view_order">查看京东单号</a>
+        <a class="jdshop_btn_mini btn_red_border">申请售后</a>
     </div>
 </footer>
 
@@ -349,18 +364,13 @@
                         </p>
                     </div>
                 </div>
-                <p class="text">本平台上所售京东实物商品享有京东商城上保修政策，如需售后可拨打京东商城客服电话。</p>
-                <p class="text">您可直接联系京东售后客服，告知京东商城上的订单号，即可处理售后问题，京东客服处理订单，如有退款，则在第二个工作日于本平台操作退款。</p>
             </div>
             <div class="dialog_button">
-                <a class="dialog_cancel font_white orange" href="tel:4006066866"><img src="../../images/order_details_2_phone.png">拨打电话</a>
-                <a class="dialog_check red" href="../jdshop_customer_service/customer_service.html"><img src="../../images/order_details_3_order.png">查看售后流程</a>
+                <a class="dialog_check red" id="iKownBtn">我知道了</a>
             </div>
         </div>
     </div>
 </div>
-
-
 
 
 
@@ -375,17 +385,17 @@
 
 
 
-    orderCancel = new jfDialog({
-        'ele':'order_cancel'
-    })
-
-
-
     //模态框
     jfOrderTips.orderDetailsDialog();
 
 
 
+
+
+
+    orderCancel = new jfDialog({
+        'ele':'order_cancel'
+    })
 
 })
 </script>

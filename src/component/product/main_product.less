@@ -136,11 +136,47 @@ footer.bottom_product_tabbar{
         height: 20px;
         overflow: hidden
       }
+
       &.btn{
         opacity:.6;
-      }
-    }
+        &.bg_red{
+          opacity: 1;
+          .tabbar_icon{
+            -webkit-filter: grayscale(0%);
+          }
+        }
 
+  /*      &#likeGood{
+          .tabbar_icon{
+
+
+          img{
+            display: block;
+          }
+          img+img{
+            display: none;
+          }
+
+          }
+        }*/
+        &#likeGood.like_red {
+          opacity: 1;
+          .tabbar_icon {
+            -webkit-filter: grayscale(0);
+            color: #ff4646;
+            img{
+              display: none;
+            }
+            img+img{
+              display: block;
+            }
+          }
+
+        }
+
+      }
+
+    }
     a.shopping_btn{
       width: 200%;
       color: #fff;
